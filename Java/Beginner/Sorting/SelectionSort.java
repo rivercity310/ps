@@ -39,17 +39,17 @@ public class SelectionSort {
         }
     }
 
-    /* 선택정렬을 응용한 Solution */
+    /* 선택정렬을 응용한 Solution : 방문처리 배열 사용 */
     private static void solution() {
         String[] ans = new String[arr.length];
-        boolean[] visited = new boolean[arr.length];
-        String[] grades = {"A+", "A+", "A", "B+", "B", "C+", "C", "D+", "D", "F"};      // 방문처리 배열
+        boolean[] visited = new boolean[arr.length];        // 방문처리 배열
+        String[] grades = {"A+", "A+", "A", "B+", "B", "C+", "C", "D+", "D", "F"};
 
         int cnt = 0;
 
         for (int i = 0; i < arr.length; i++) {
             int max = Integer.MIN_VALUE;
-            int max_index = -1;
+            int max_index = Integer.MIN_VALUE;
 
             for (int j = 0; j < arr.length; j++) {
                 if (arr[j] > max && !visited[j]) {
@@ -58,8 +58,36 @@ public class SelectionSort {
                 }
             }
 
+            /* 방문하지 않은 배열 중에서 가장 큰 원소 인덱스에 성적 부여 & 방문처리 */
             ans[max_index] = grades[cnt++];
             visited[max_index] = true;
+        }
+
+        System.out.println("[결과를 출력합니다]");
+        for (String val : ans)
+            System.out.print(val + " ");
+    }
+
+    private static void solution2() {
+        String[] ans = new String[arr.length];
+        String[] grades = {"A+", "A+", "A", "B+", "B", "C+", "C", "D+", "D", "F"};
+
+        int cnt = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            int max = Integer.MIN_VALUE;
+            int max_index = Integer.MIN_VALUE;
+
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[j] > max) {
+                    max = arr[j];
+                    max_index = j;
+                }
+            }
+
+            /* '선택'된 가장 큰 원소의 인덱스에 차례대로 성적 부여 & 가장 작은 값으로 업데이트 (제외시키기 위해) */
+            ans[max_index] = grades[cnt++];
+            arr[max_index] = Integer.MIN_VALUE;
         }
 
         System.out.println("[결과를 출력합니다]");
@@ -73,8 +101,8 @@ public class SelectionSort {
             arr[idx++] = Integer.parseInt(st.nextToken());
 
         // selection_sort();
-
-        solution();
+        // solution();
+        solution2();
 
         System.out.println("\n[정렬된 배열 출력]");
         for (int val : arr)
