@@ -9,6 +9,8 @@ public class Main {
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
+        // Todo Sth..
 
+        br.close();
     }
 }
