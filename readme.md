@@ -1,9 +1,12 @@
 ## 삼성 SW 공채 & 이것이 코딩테스트다 문제풀이
-프로그래밍 언어는 Java와 Python을 사용하며, 폴더 구성은 다음과 같다.
 
-- Beginner : 입문자 & 초급자
-- Intermediate : 중급 이상
-- Expert : 고급 이상 
+###
+
+### Language
+<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>
+
 
 
 ---
