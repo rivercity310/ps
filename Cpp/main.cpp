@@ -3,8 +3,10 @@
 #define BINARY_SEARCH
 
 #ifdef SORTING
-#include "Sorting/SelectionSort.h"
-#include "Sorting/InsertionSort.h"
+extern void selection_sort_test();
+extern void insertion_sort_test();
+extern void quick_sort_test();
+extern void count_sort_test();
 #endif
 
 #ifdef GREEDY
@@ -15,8 +17,6 @@
 
 #endif
 
-using namespace std;
-
 int main() {
-    insertion_sort_test();
+    count_sort_test();
 }

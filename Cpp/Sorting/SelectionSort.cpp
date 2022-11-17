@@ -2,7 +2,6 @@
 // Created by seungsu on 22. 11. 17.
 //
 
-#include "SelectionSort.h"
 #include <iostream>
 #include <limits>          // INT_MIN 값 사용
 #include <algorithm>       // std::max_element
