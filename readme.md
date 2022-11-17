@@ -3,7 +3,7 @@
 ###
 
 ### Language
-<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/><img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/><img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>
 
 
 
