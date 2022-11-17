@@ -7,5 +7,4 @@
 
 void insertion_sort_test();
 
-
 #endif //CPP_INSERTIONSORT_H
