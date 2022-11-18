@@ -1,5 +1,5 @@
-#define SORTING
-#define GREEDY
+// #define SORTING
+// #define GREEDY
 #define BINARY_SEARCH
 
 #ifdef SORTING
@@ -17,9 +17,12 @@ extern void number_one_test();
 #endif
 
 #ifdef BINARY_SEARCH
-
+extern void bin_search_test();
+extern void find_part_test1();
+extern void find_part_test2();
+extern void cutting_rice_cake_test();
 #endif
 
 int main() {
-    number_one_test();
+    cutting_rice_cake_test();
 }   
