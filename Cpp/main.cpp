@@ -10,7 +10,10 @@ extern void count_sort_test();
 #endif
 
 #ifdef GREEDY
-
+extern void big_number_test();
+extern void card_game_test();
+extern void exchange_test();
+extern void number_one_test();
 #endif
 
 #ifdef BINARY_SEARCH
@@ -18,5 +21,5 @@ extern void count_sort_test();
 #endif
 
 int main() {
-    count_sort_test();
-}
+    number_one_test();
+}   
