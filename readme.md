@@ -1,7 +1,6 @@
-## 삼성 SW 공채 & 이것이 코딩테스트다 문제풀이
+## 삼성 SW 공채 & 이코테 & 백준 문제풀이
 
 ---
-
 
 ### 소스코드 보기 (Click) 
 [<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python)
@@ -20,6 +19,7 @@
 - 카드게임
 - 큰 수의 법칙
 - 1이 될때까지
+- 회의실 배정 (https://www.acmicpc.net/problem/1931)
 
 ### 3. Binary Search
 - 재귀 or 반복으로 구현된 이진탐색

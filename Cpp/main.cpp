@@ -1,6 +1,6 @@
 // #define SORTING
-// #define GREEDY
-#define BINARY_SEARCH
+#define GREEDY
+// #define BINARY_SEARCH
 
 #ifdef SORTING
 extern void selection_sort_test();
@@ -14,6 +14,7 @@ extern void big_number_test();
 extern void card_game_test();
 extern void exchange_test();
 extern void number_one_test();
+extern void boj_1931();
 #endif
 
 #ifdef BINARY_SEARCH
@@ -24,5 +25,5 @@ extern void cutting_rice_cake_test();
 #endif
 
 int main() {
-    cutting_rice_cake_test();
+    boj_1931();
 }   
