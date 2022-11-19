@@ -1,5 +1,15 @@
 ## 삼성 SW 공채 & 이코테 & 백준 문제풀이
 
+- 정답 처리 받은 소스코드만 등록
+   
+<br/>
+
++) 2022/11/19 <br/>
+Python 코드 구조를 다음과 같이 짜보자 -> 매개변수 타입과 반환형 정의, 함수형 구조 
+(https://github.com/rivercity310/Samsung_Software_Test/blob/main/Python/beginner/01_Sorting/boj_2108.py)
+
+<br/>
+
 ---
 
 ### 소스코드 보기 (Click) 
@@ -13,8 +23,8 @@
 - 삽입정렬
 - 퀵정렬
 - 계수정렬
-- 통계학 (https://www.acmicpc.net/problem/2108)
 - 좌표압축 (https://www.acmicpc.net/problem/18870)
+- 통계학 (https://www.acmicpc.net/problem/2108) 
 
 ### 2. Greedy
 - 거스름돈 문제
