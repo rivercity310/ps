@@ -13,6 +13,8 @@
 - 삽입정렬
 - 퀵정렬
 - 계수정렬
+- 통계학 (https://www.acmicpc.net/problem/2108)
+- 좌표압축 (https://www.acmicpc.net/problem/18870)
 
 ### 2. Greedy
 - 거스름돈 문제
@@ -20,6 +22,7 @@
 - 큰 수의 법칙
 - 1이 될때까지
 - 회의실 배정 (https://www.acmicpc.net/problem/1931)
+- 주유소 (https://www.acmicpc.net/problem/13305)
 
 ### 3. Binary Search
 - 재귀 or 반복으로 구현된 이진탐색
