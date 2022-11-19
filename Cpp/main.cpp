@@ -1,6 +1,6 @@
-#define SORTING
+// #define SORTING
 // #define GREEDY
-// #define BINARY_SEARCH
+#define BINARY_SEARCH
 
 #ifdef SORTING
 extern void selection_sort_test();
@@ -25,8 +25,12 @@ extern void bin_search_test();
 extern void find_part_test1();
 extern void find_part_test2();
 extern void cutting_rice_cake_test();
+extern void boj_1654();
+extern void boj_2805();
+extern void boj_2110();
+extern void boj_2110_c();
 #endif
 
 int main() {
-    boj_2108();
+    boj_2110_c();
 }   
