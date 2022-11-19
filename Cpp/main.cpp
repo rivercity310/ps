@@ -29,8 +29,9 @@ extern void boj_1654();
 extern void boj_2805();
 extern void boj_2110();
 extern void boj_2110_c();
+extern void lower_and_upper_bound_test();
 #endif
 
 int main() {
-    boj_2110_c();
+    lower_and_upper_bound_test();
 }   

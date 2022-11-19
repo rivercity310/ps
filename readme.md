@@ -39,7 +39,10 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 ###
 
 ### 3. Binary Search ★★★★
+lower bound 방식과 upper bound 방식에 대해 확실히 알아두자
+
 - 재귀 or 반복으로 구현된 이진탐색
+- lower bound & upper bound
 - 부품 찾기
 - 떡볶이 떡 자르기
 - 랜선 자르기 (https://www.acmicpc.net/problem/1654)
