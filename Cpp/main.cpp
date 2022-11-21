@@ -1,11 +1,12 @@
-// #define SORTING
+#define SORTING
 // #define GREEDY
 // #define BINARY_SEARCH
-#define SHORTEST_PATH
+// #define SHORTEST_PATH
 
 #ifdef SORTING
 extern void selection_sort_test();
-extern void insertion_sort_test();
+extern void bubble_sort_test();
+extern void insertion_shell_sort_test();
 extern void quick_sort_test();
 extern void count_sort_test();
 extern void boj_18870();
@@ -39,5 +40,5 @@ extern void boj_1753();
 #endif
 
 int main() {
-    boj_1753();
+    insertion_shell_sort_test();
 }   
