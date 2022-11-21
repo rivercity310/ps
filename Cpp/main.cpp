@@ -1,6 +1,7 @@
 // #define SORTING
 // #define GREEDY
-#define BINARY_SEARCH
+// #define BINARY_SEARCH
+#define SHORTEST_PATH
 
 #ifdef SORTING
 extern void selection_sort_test();
@@ -32,6 +33,11 @@ extern void boj_2110_c();
 extern void lower_and_upper_bound_test();
 #endif
 
+#ifdef SHORTEST_PATH
+extern void boj_1916();
+extern void boj_1753();
+#endif
+
 int main() {
-    lower_and_upper_bound_test();
+    boj_1753();
 }   

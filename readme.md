@@ -16,7 +16,11 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 [<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python)
 
 ---
+<br/>
+
 ## [ Beginner ]
+
+<br/><br/>
 
 ### 1. Sorting
 - 선택정렬 & 응용문제
@@ -26,7 +30,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 좌표압축 (https://www.acmicpc.net/problem/18870)
 - 통계학 (https://www.acmicpc.net/problem/2108) 
 
-###
+<br/><br/>
 
 ### 2. Greedy
 - 거스름돈 문제
@@ -36,10 +40,10 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 회의실 배정 (https://www.acmicpc.net/problem/1931)
 - 주유소 (https://www.acmicpc.net/problem/13305)
 
-###
+<br/><br/>
 
 ### 3. Binary Search ★★★★
-lower bound 방식과 upper bound 방식에 대해 확실히 알아두자
+<b><small>경계값을 처리하는 방식인 lower bound 방식과 upper bound 방식에 대해 확실히 알아두자</small></b><br/>
 
 - 재귀 or 반복으로 구현된 이진탐색
 - lower bound & upper bound
@@ -49,38 +53,36 @@ lower bound 방식과 upper bound 방식에 대해 확실히 알아두자
 - 나무 자르기 (https://www.acmicpc.net/problem/2805)
 - 공유기 설치 (https://www.acmicpc.net/problem/2110)
 
-###
+<br/><br/>
 
 ### 4. DFS / BFS ★★★★
 
-###
+<br/><br/>
 
 ### 5. 최단 경로 ★★★
+- 최소비용 구하기 (https://www.acmicpc.net/problem/1916)
+- 최단경로 (https://www.acmicpc.net/problem/1753)
 
-###
+<br/><br/>
 
 ### 6. Minimum Spanning Tree ★★
 
-###
+<br/><br/>
 
 ### 7. Dynamic Programming ★★★
 
-###
-
-# 
+<br/><br/>
 
 --- 
 
 ## [ Intermediate ]
 - 추후 작성 예정
-
-# 
+ 
 
 ---
 
 ## [ Expert ] 
 - 추후 작성 예정
 
-# 
 
 ---
