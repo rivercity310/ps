@@ -3,7 +3,8 @@ package Beginner.A_Sorting;
 import java.util.Random;
 
 public class Insertion_Shell_Sort {
-    static final int[] arr = new int[30];
+    static final int MAX = 10;
+    static int[] arr;
     static final Random rd = new Random();
 
     private static void print_arr() {
@@ -44,14 +45,18 @@ public class Insertion_Shell_Sort {
     }
 
     public static void main(String[] args) {
+        //arr = new int[]{83, 86, 77, 15, 93, 35, 86, 92, 49, 21};
+        arr = new int[MAX];
         for (int i = 0; i < arr.length; i++)
             arr[i] = rd.nextInt(100) + 1;
+
 
         System.out.println("[ 생성된 배열 ]");
         print_arr();
 
-        shell_sort();
+        insertion_sort();
 
         System.out.println("[ 정렬된 배열 ]");
-        print_arr();}
+        print_arr();
+    }
 }

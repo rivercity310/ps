@@ -8,9 +8,11 @@ extern void selection_sort_test();
 extern void bubble_sort_test();
 extern void insertion_shell_sort_test();
 extern void quick_sort_test();
+extern void merge_sort_test();
 extern void count_sort_test();
 extern void boj_18870();
 extern void boj_2108();
+extern void boj_24060();
 #endif
 
 #ifdef GREEDY
@@ -40,5 +42,5 @@ extern void boj_1753();
 #endif
 
 int main() {
-    insertion_shell_sort_test();
+    boj_24060();
 }   
