@@ -26,9 +26,9 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 버블정렬
 - 선택정렬 & 응용문제
 - 삽입정렬과 셸정렬(삽입정렬의 응용)
-- 병합정렬과 퀵정렬    * 
+- 병합정렬과 퀵정렬
 - 계수정렬
-- 알고리즘 수업 - 병합 정렬 1 (https://www.acmicpc.net/problem/24060)  *
+- 알고리즘 수업 - 병합 정렬 1 (https://www.acmicpc.net/problem/24060) -> 동일 로직 C++만 통과.. 나머지는 시간초과 문제 해결 못함
 - 좌표압축 (https://www.acmicpc.net/problem/18870)
 - 통계학 (https://www.acmicpc.net/problem/2108) 
 
@@ -44,7 +44,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 
 <br/><br/>
 
-### 3. Binary Search ★★★★
+### 3. Binary Search
 - 재귀 or 반복으로 구현된 이진탐색
 - lower bound & upper bound
 - 부품 찾기
@@ -52,25 +52,29 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 랜선 자르기 (https://www.acmicpc.net/problem/1654)
 - 나무 자르기 (https://www.acmicpc.net/problem/2805)
 - 공유기 설치 (https://www.acmicpc.net/problem/2110)
-- K번째 수 (https://www.acmicpc.net/problem/1300)        *
+- K번째 수 (https://www.acmicpc.net/problem/1300)     
 
 <br/><br/>
 
-### 4. DFS / BFS ★★★★
+### 4. Graph Search (BFS / DFS)
+- 알고리즘 수업 - 너비 우선 탐색 2 (https://www.acmicpc.net/problem/24445)
+- 나이트의 이동 (https://www.acmicpc.net/problem/7562)    *
+- 토마토 (https://www.acmicpc.net/problem/7576)           *
 
 <br/><br/>
 
-### 5. 최단 경로 ★★★
+### 5. 최단 경로
 - 최소비용 구하기 (https://www.acmicpc.net/problem/1916)
 - 최단경로 (https://www.acmicpc.net/problem/1753)
+- 숨바꼭질3 (https://www.acmicpc.net/problem/13549)
 
 <br/><br/>
 
-### 6. Minimum Spanning Tree ★★
+### 6. Minimum Spanning Tree
 
 <br/><br/>
 
-### 7. Dynamic Programming ★★★
+### 7. Dynamic Programming
 
 <br/><br/>
 
