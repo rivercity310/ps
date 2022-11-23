@@ -1,8 +1,19 @@
-// #define SORTING
-// #define GREEDY
-// #define BINARY_SEARCH
+// ----------------------------------------------------------------------------------
+
+// #define BEGINNER
+#define INTERMEDIATE
+
+// ----------------------------------------------------------------------------------
+
+#define SORTING
+#define GREEDY
+#define BINARY_SEARCH
 #define GRAPH_SEARCH
-// #define SHORTEST_PATH
+#define SHORTEST_PATH
+
+// ----------------------------------------------------------------------------------
+
+#ifdef BEGINNER
 
 #ifdef SORTING
 extern void selection_sort_test();
@@ -50,6 +61,18 @@ extern void telegram();
 extern void floyd_warshall();
 #endif
 
+#endif
+
+
+// ----------------------------------------------------------------------------------
+
+
+#ifdef INTERMEDIATE
+
+extern void boj_1655();
+
+#endif
+
 int main() {
-    maze_escape_test();
+    boj_1655();
 }   
