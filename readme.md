@@ -57,6 +57,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/><br/>
 
 ### 4. Graph Search (BFS / DFS)
+- 미로탈출 (BFS를 이용한 최단거리 사방탐색 -> 가중치가 1인 경우)
 - 알고리즘 수업 - 너비 우선 탐색 2 (https://www.acmicpc.net/problem/24445)
 - 나이트의 이동 (https://www.acmicpc.net/problem/7562)    *
 - 토마토 (https://www.acmicpc.net/problem/7576)           *
