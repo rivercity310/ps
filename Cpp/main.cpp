@@ -40,8 +40,9 @@ extern void lower_and_upper_bound_test();
 extern void boj_1916();
 extern void boj_1753();
 extern void boj_13549();
+extern void telegram();
 #endif
 
 int main() {
-    boj_13549();
+    telegram();
 }   

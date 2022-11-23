@@ -64,6 +64,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/><br/>
 
 ### 5. 최단 경로
+- 전보 (다익스트라 기본문제)
 - 최소비용 구하기 (https://www.acmicpc.net/problem/1916)
 - 최단경로 (https://www.acmicpc.net/problem/1753)
 - 숨바꼭질3 (https://www.acmicpc.net/problem/13549)

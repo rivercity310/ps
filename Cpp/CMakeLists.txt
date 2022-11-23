@@ -30,4 +30,4 @@ add_executable(Cpp
         Beginner/05_ShortestPath/boj_13549.cpp
         Beginner/05_ShortestPath/boj_1753.cpp
         Beginner/05_ShortestPath/boj_1916.cpp
-        main.cpp)
+        main.cpp Beginner/05_ShortestPath/telegram.cpp)
