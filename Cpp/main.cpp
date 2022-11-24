@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------------
 
-// #define BEGINNER
-#define INTERMEDIATE
+#define BEGINNER
+// #define INTERMEDIATE
 
 // ----------------------------------------------------------------------------------
 
@@ -10,6 +10,7 @@
 #define BINARY_SEARCH
 #define GRAPH_SEARCH
 #define SHORTEST_PATH
+#define MST
 
 // ----------------------------------------------------------------------------------
 
@@ -49,6 +50,7 @@ extern void lower_and_upper_bound_test();
 #endif
 
 #ifdef GRAPH_SEARCH
+extern void boj_24479();
 extern void boj_24445();
 extern void maze_escape_test();
 #endif
@@ -63,6 +65,10 @@ extern void floyd_warshall();
 
 #endif
 
+#ifdef MST
+extern void boj_1956();
+
+#endif
 
 // ----------------------------------------------------------------------------------
 
@@ -74,5 +80,5 @@ extern void boj_1655();
 #endif
 
 int main() {
-    boj_1655();
+    boj_1956();
 }   
