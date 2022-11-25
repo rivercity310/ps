@@ -10,11 +10,15 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 
 <br/>
 
++) 2022/11/25 <br/>
+앞으로 Java 코드는 Kotlin으로 대체할 예정 (공부중...)
+
+<br/>
+
 ---
 
 ### 소스코드 보기 (Click) 
-[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python)
-
+[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python) [<img src="https://img.shields.io/badge/Kotlin-3b5998?style=flat&logo=Kotlin&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Kotlin)
 ---
 <br/>
 
@@ -64,7 +68,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 
 <br/><br/>
 
-### 5. 최단 경로
+### 5. Shortest Path
 - 전보 (다익스트라 기본문제)
 - 간단한 플로이드 워셜 알고리즘 구현
 - [최소비용 구하기](https://www.acmicpc.net/problem/1916)
@@ -77,7 +81,14 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 
 <br/><br/>
 
-### 7. Dynamic Programming
+### 7. Tree
+- [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
+- [완전 이진 트리](https://www.acmicpc.net/problem/9934)
+
+
+<br/><br/>
+
+### 8. Dynamic Programming
 
 <br/><br/>
 

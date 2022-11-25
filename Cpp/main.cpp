@@ -5,12 +5,13 @@
 
 // ----------------------------------------------------------------------------------
 
-#define SORTING
-#define GREEDY
-#define BINARY_SEARCH
-#define GRAPH_SEARCH
-#define SHORTEST_PATH
-#define MST
+// #define SORTING
+// #define GREEDY
+// #define BINARY_SEARCH
+// #define GRAPH_SEARCH
+// #define SHORTEST_PATH
+// #define MST
+#define TREE
 
 // ----------------------------------------------------------------------------------
 
@@ -70,6 +71,11 @@ extern void boj_1956();
 
 #endif
 
+#ifdef TREE
+extern void boj_11725();
+extern void boj_9934();
+#endif
+
 // ----------------------------------------------------------------------------------
 
 
@@ -80,5 +86,5 @@ extern void boj_1655();
 #endif
 
 int main() {
-    boj_1956();
+    boj_9934();
 }   
