@@ -11,7 +11,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/>
 
 +) 2022/11/25 <br/>
-앞으로 Java 코드는 Kotlin으로 대체할 예정 (공부중...)
+앞으로 Java 코드는 점진적으로 Kotlin으로 대체할 예정 (공부중...)
 
 <br/>
 
@@ -97,14 +97,18 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 ## [ Intermediate ]
 <br/>
 
-### [가운데를 말해요](https://www.acmicpc.net/problem/1655) <br/>
+#### [가운데를 말해요](https://www.acmicpc.net/problem/1655) <br/>
 - 힙을 이용해서 매번 들어오는 데이터에 대한 중앙값을 구하는 문제
 
 
-### [운동](https://www.acmicpc.net/problem/1956)
+#### [운동](https://www.acmicpc.net/problem/1956)
 - Floyd-Warshall 알고리즘을 이용해서 사이클을 이루는 최단거리를 구할 수 있다.
 - 간단하게 구현 가능하지만 생각치 못한 응용이라 중급자에 추가
 
+
+#### [트리의 지름](https://www.acmicpc.net/problem/1167)
+- dfs or dijkstra를 이용해서 트리의 지름을 구해보자
+- C++에서는 dfs, Python에서는 dijkstra를 통해 구현해보았다.
 
 ---
 

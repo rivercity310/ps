@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------------
 
-#define BEGINNER
-// #define INTERMEDIATE
+//#define BEGINNER
+#define INTERMEDIATE
 
 // ----------------------------------------------------------------------------------
 
@@ -82,9 +82,11 @@ extern void boj_9934();
 #ifdef INTERMEDIATE
 
 extern void boj_1655();
+extern void boj_1956();
+extern void boj_1167();
 
 #endif
 
 int main() {
-    boj_9934();
+    boj_1167();
 }   
