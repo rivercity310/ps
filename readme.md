@@ -18,7 +18,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 ---
 
 ### 소스코드 보기 (Click) 
-[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python) [<img src="https://img.shields.io/badge/Kotlin-3b5998?style=flat&logo=Kotlin&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Kotlin)
+[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python) [<img src="https://img.shields.io/badge/Kotlin-3b5998?style=flat&logo=Kotlin&logoColor=white"/>](https://github.com/rivercity310/software_test/tree/main/Kotlin/src/main/kotlin)
 ---
 <br/>
 
@@ -32,7 +32,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 삽입정렬과 셸정렬(삽입정렬의 응용)
 - 병합정렬과 퀵정렬
 - 계수정렬
-- [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060) -> 동일 로직 C++만 통과.. 나머지는 시간초과 문제 해결 못함
+- [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060) 
 - [좌표압축](https://www.acmicpc.net/problem/18870)
 - [통계학](https://www.acmicpc.net/problem/2108) 
 
