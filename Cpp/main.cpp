@@ -1,6 +1,6 @@
 // ----------------------------------------------------------------------------------
 
-//#define BEGINNER
+#define BEGINNER
 #define INTERMEDIATE
 
 // ----------------------------------------------------------------------------------
@@ -12,6 +12,9 @@
 // #define SHORTEST_PATH
 // #define MST
 #define TREE
+#define DIVIDE_AND_CONQUER
+#define DP
+#define OTHERS
 
 // ----------------------------------------------------------------------------------
 
@@ -64,8 +67,6 @@ extern void telegram();
 extern void floyd_warshall();
 #endif
 
-#endif
-
 #ifdef MST
 extern void boj_1956();
 
@@ -75,6 +76,24 @@ extern void boj_1956();
 extern void boj_11725();
 extern void boj_9934();
 #endif
+
+#ifdef DIVIDE_AND_CONQUER
+
+extern void boj_2504();
+extern void boj_1992();
+
+#endif
+
+#ifdef DP
+
+#endif
+
+#ifdef OTHERS
+
+#endif
+
+#endif
+
 
 // ----------------------------------------------------------------------------------
 
@@ -88,5 +107,5 @@ extern void boj_1167();
 #endif
 
 int main() {
-    boj_1167();
+    boj_1992();
 }   

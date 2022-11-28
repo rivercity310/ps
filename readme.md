@@ -89,7 +89,15 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 
 <br/><br/>
 
-### 8. Dynamic Programming
+### 8. Divide & Conquer
+
+<br/><br/>
+
+### 9. Dynamic Programming
+
+<br/><br/>
+
+### Others
 
 <br/><br/>
 

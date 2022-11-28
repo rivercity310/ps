@@ -30,4 +30,4 @@ add_executable(Cpp
         Beginner/05_ShortestPath/boj_13549.cpp
         Beginner/05_ShortestPath/boj_1753.cpp
         Beginner/05_ShortestPath/boj_1916.cpp
-        main.cpp Beginner/05_ShortestPath/telegram.cpp Beginner/05_ShortestPath/floyd_warshall.cpp Beginner/04_GraphSearch/boj_24445.cpp Beginner/04_GraphSearch/maze_escape.cpp Intermediate/boj_1655.cpp Beginner/04_GraphSearch/boj_24479.cpp Beginner/07_Tree/boj_11725.cpp Beginner/07_Tree/boj_9934.cpp Intermediate/boj_1956.cpp Intermediate/boj_1167.cpp)
+        main.cpp Beginner/05_ShortestPath/telegram.cpp Beginner/05_ShortestPath/floyd_warshall.cpp Beginner/04_GraphSearch/boj_24445.cpp Beginner/04_GraphSearch/maze_escape.cpp Intermediate/boj_1655.cpp Beginner/04_GraphSearch/boj_24479.cpp Beginner/07_Tree/boj_11725.cpp Beginner/07_Tree/boj_9934.cpp Intermediate/boj_1956.cpp Intermediate/boj_1167.cpp Beginner/Others/boj_2504.cpp Beginner/08_DivideAndConquer/boj_1992.cpp)
