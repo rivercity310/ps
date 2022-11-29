@@ -1,10 +1,10 @@
 package beginner.j_Others
 
 
-val tmp1 = intArrayOf(1, 0, 1, 0, 1, 0, 1, 0)
-val tmp2 = intArrayOf(0, 1, 0, 1, 0, 1, 0, 1)
+private val tmp1 = intArrayOf(1, 0, 1, 0, 1, 0, 1, 0)
+private val tmp2 = intArrayOf(0, 1, 0, 1, 0, 1, 0, 1)
 
-fun black_cnt(arr: Array<CharArray>, row: Int, col: Int): Int {
+private fun black_cnt(arr: Array<CharArray>, row: Int, col: Int): Int {
     var cnt = 0
 
     for (i in 0 until 8) {
@@ -25,7 +25,7 @@ fun black_cnt(arr: Array<CharArray>, row: Int, col: Int): Int {
     return cnt
 }
 
-fun white_cnt(arr: Array<CharArray>, row: Int, col: Int): Int {
+private fun white_cnt(arr: Array<CharArray>, row: Int, col: Int): Int {
     var cnt = 0
 
     for (i in 0 until 8) {
@@ -46,7 +46,7 @@ fun white_cnt(arr: Array<CharArray>, row: Int, col: Int): Int {
     return cnt
 }
 
-fun solve(arr: Array<CharArray>, row: Int, col: Int): Int {
+private fun solve(arr: Array<CharArray>, row: Int, col: Int): Int {
     return minOf(black_cnt(arr, row, col), white_cnt(arr, row, col))
 }
 

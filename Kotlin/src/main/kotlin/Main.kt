@@ -7,7 +7,8 @@ import beginner.g_Tree.*
 import beginner.h_DivideAndConquer.*
 import beginner.i_DP.*
 import beginner.j_Others.*
+import intermediate.*
 
 fun main() {
-    boj_2477()
+    boj_2740()
 }

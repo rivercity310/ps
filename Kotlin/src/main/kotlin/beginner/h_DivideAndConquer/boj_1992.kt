@@ -1,7 +1,7 @@
 package beginner.h_DivideAndConquer
 
 
-fun solve(arr: Array<IntArray>, row: Int, col: Int, size: Int) {
+private fun solve(arr: Array<IntArray>, row: Int, col: Int, size: Int) {
     fun check_arr(): Boolean {
         for (i in row until row + size) {
             val tmp = arr[row][col]

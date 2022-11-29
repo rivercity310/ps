@@ -92,6 +92,8 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 
 ### 8. Divide & Conquer
 - [쿼드트리](https://www.acmicpc.net/problem/1992)
+- [색종이 만들기](https://www.acmicpc.net/problem/2630)
+- [종이의 개수](https://www.acmicpc.net/problem/1780)
 
 <br/><br/>
 
@@ -100,6 +102,10 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/><br/>
 
 ### Others
+<br/>
+
+#### [행렬 곱셈](https://www.acmicpc.net/problem/2740)
+
 <br/>
 
 #### [괄호의 값](https://www.acmicpc.net/problem/2504)
