@@ -89,7 +89,7 @@ extern void boj_1992();
 #endif
 
 #ifdef OTHERS
-
+extern void boj_1018();
 #endif
 
 #endif
@@ -107,5 +107,5 @@ extern void boj_1167();
 #endif
 
 int main() {
-    boj_1992();
+    boj_1018();
 }   

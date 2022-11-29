@@ -79,6 +79,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/><br/>
 
 ### 6. Minimum Spanning Tree
+- Kruskal 알고리즘으로 MST 구현
 
 <br/><br/>
 
@@ -90,6 +91,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/><br/>
 
 ### 8. Divide & Conquer
+- [쿼드트리](https://www.acmicpc.net/problem/1992)
 
 <br/><br/>
 
@@ -98,6 +100,21 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/><br/>
 
 ### Others
+<br/>
+
+#### [괄호의 값](https://www.acmicpc.net/problem/2504)
+- 스택을 이용한 문제
+
+<br/>
+
+#### [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
+- 모든 경우의 수를 탐색하는 브루트 포스(무차별 대입) 방식
+
+<br/>
+
+#### [참외밭](https://www.acmicpc.net/problem/2477)
+- 미해결
+
 
 <br/><br/>
 
@@ -109,11 +126,13 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 #### [가운데를 말해요](https://www.acmicpc.net/problem/1655) <br/>
 - 힙을 이용해서 매번 들어오는 데이터에 대한 중앙값을 구하는 문제
 
+<br/>
 
 #### [운동](https://www.acmicpc.net/problem/1956)
 - Floyd-Warshall 알고리즘을 이용해서 사이클을 이루는 최단거리를 구할 수 있다.
 - 간단하게 구현 가능하지만 생각치 못한 응용이라 중급자에 추가
 
+<br/>
 
 #### [트리의 지름](https://www.acmicpc.net/problem/1167)
 - dfs or dijkstra를 이용해서 트리의 지름을 구해보자
