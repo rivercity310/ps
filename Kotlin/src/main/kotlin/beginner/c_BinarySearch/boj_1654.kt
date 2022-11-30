@@ -1,6 +1,6 @@
 package beginner.c_BinarySearch
 
-fun solve(arr: MutableList<Long>, n: Int): Long {
+private fun solve(arr: MutableList<Long>, n: Int): Long {
     var left = 1L
     var right = arr[arr.lastIndex]
     var ans = 0L

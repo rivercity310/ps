@@ -2,7 +2,7 @@ package beginner.a_Sorting
 
 // 제자리 정렬을 사용해 메모리 효율적
 
-fun partition(arr: IntArray, start: Int, end: Int): Int {
+private fun partition(arr: IntArray, start: Int, end: Int): Int {
     var left = start
     var right = end
     val pivot = arr[(left + right) / 2]
@@ -21,7 +21,7 @@ fun partition(arr: IntArray, start: Int, end: Int): Int {
     return left
 }
 
-fun solve(arr: IntArray, left: Int = 0, right: Int = arr.lastIndex) {
+private fun solve(arr: IntArray, left: Int = 0, right: Int = arr.lastIndex) {
     val index = partition(arr, left, right)
 
     if (left < index - 1)
@@ -36,9 +36,9 @@ fun quick_sort2() = with(System.`in`.bufferedReader()) {
         .map { it.toInt() }
         .toIntArray()
 
-    val sorted_arr = solve(arr)
+    solve(arr)
 
     println("[ 정렬 완료 ]")
-    for (k in sorted_arr)
+    for (k in arr)
         print("$k ")
 }

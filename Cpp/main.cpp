@@ -79,8 +79,8 @@ extern void boj_9934();
 
 #ifdef DIVIDE_AND_CONQUER
 
-extern void boj_2504();
 extern void boj_1992();
+extern void boj_10830();
 
 #endif
 
@@ -90,6 +90,9 @@ extern void boj_1992();
 
 #ifdef OTHERS
 extern void boj_1018();
+extern void boj_2504();
+extern void boj_2740();
+extern void boj_3273();
 #endif
 
 #endif
@@ -103,9 +106,9 @@ extern void boj_1018();
 extern void boj_1655();
 extern void boj_1956();
 extern void boj_1167();
-
+extern void boj_2470();
 #endif
 
 int main() {
-    boj_1018();
+    boj_10830();
 }   

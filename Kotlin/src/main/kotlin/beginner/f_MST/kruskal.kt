@@ -1,13 +1,13 @@
 package beginner.f_MST
 
 
-data class ND(val src: Int, val dst: Int, val weight: Int) : Comparable<ND> {
+private data class ND(val src: Int, val dst: Int, val weight: Int) : Comparable<ND> {
     override fun compareTo(other: ND): Int {
         return this.weight - other.weight
     }
 }
 
-class DisjointSet(val n: Int) {
+private class DisjointSet(val n: Int) {
     val parent = IntArray(n)
 
     init {
@@ -30,7 +30,7 @@ class DisjointSet(val n: Int) {
     }
 }
 
-fun solve(grp: MutableList<ND>, n: Int): Int {
+private fun solve(grp: MutableList<ND>, n: Int): Int {
     val dset = DisjointSet(grp.size)
     var rst = 0
 

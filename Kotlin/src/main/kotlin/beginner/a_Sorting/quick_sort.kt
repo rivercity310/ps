@@ -2,7 +2,7 @@ package beginner.a_Sorting
 
 // quick sort with kotlin style
 // 매번 새로운 리스트를 만드므로 비효율적 ㅠㅠ
-fun solve(arr: IntArray): IntArray {
+private fun solve(arr: IntArray): IntArray {
     if (arr.size < 2)
         return arr
 

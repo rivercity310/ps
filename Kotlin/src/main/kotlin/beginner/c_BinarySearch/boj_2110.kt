@@ -1,6 +1,6 @@
 package beginner.c_BinarySearch
 
-fun solve(arr: MutableList<Int>, c: Int): Int {
+private fun solve(arr: MutableList<Int>, c: Int): Int {
 
     fun install(mid: Int): Int {
         var router = 1

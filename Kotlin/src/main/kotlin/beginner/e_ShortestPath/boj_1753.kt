@@ -4,13 +4,13 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.PriorityQueue
 
-data class Node(val index: Int, val dist: Int): Comparable<Node> {
+private data class Node(val index: Int, val dist: Int): Comparable<Node> {
     override fun compareTo(other: Node): Int {
         return this.dist - other.dist
     }
 }
 
-fun solve(grp: MutableList<PriorityQueue<Node>>, K: Int) {
+private fun solve(grp: MutableList<PriorityQueue<Node>>, K: Int) {
     var distance: IntArray = IntArray(grp.size) {Int.MAX_VALUE}
     var pq: PriorityQueue<Node> = PriorityQueue()
 

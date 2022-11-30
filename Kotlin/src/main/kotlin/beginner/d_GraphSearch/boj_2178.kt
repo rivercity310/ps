@@ -1,7 +1,7 @@
 package beginner.d_GraphSearch
 
 
-fun solve(matrix: Array<IntArray>): Int {
+private fun solve(matrix: Array<IntArray>): Int {
     val deque = ArrayDeque<Pair<Int, Int>>()
     val dx = intArrayOf(-1, 1, 0, 0)
     val dy = intArrayOf(0, 0, -1, 1)

@@ -1,13 +1,13 @@
 package intermediate
 
-const val MAX = 100001
-val grp = Array<MutableList<Pair<Int, Int>>>(MAX) { mutableListOf() }
-val visited = BooleanArray(MAX) { false }
-var target = -1
-var max_dist = -1
+private const val MAX = 100001
+private val grp = Array<MutableList<Pair<Int, Int>>>(MAX) { mutableListOf() }
+private val visited = BooleanArray(MAX) { false }
+private var target = -1
+private var max_dist = -1
 
 
-fun dfs(node: Int, sum: Int) {
+private fun dfs(node: Int, sum: Int) {
     visited[node] = true
 
     if (max_dist < sum) {
@@ -20,7 +20,7 @@ fun dfs(node: Int, sum: Int) {
             dfs(next, sum + weight)
 }
 
-fun solve(): Int {
+private fun solve(): Int {
     dfs(1, 0)
 
     visited.fill(false)

@@ -3,11 +3,11 @@ package beginner.a_Sorting
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-var cnt = 0
-var ans = -1
-lateinit var tmp: IntArray
+private var cnt = 0
+private var ans = -1
+private lateinit var tmp: IntArray
 
-fun merging(arr: IntArray, left: Int, mid: Int, right: Int, k: Int) {
+private fun merging(arr: IntArray, left: Int, mid: Int, right: Int, k: Int) {
     var (i, j, t) = intArrayOf(left, mid + 1, left)
 
     while (i <= mid && j <= right) {
@@ -27,7 +27,7 @@ fun merging(arr: IntArray, left: Int, mid: Int, right: Int, k: Int) {
     }
 }
 
-fun merge(arr: IntArray, left: Int, right: Int, k: Int) {
+private fun merge(arr: IntArray, left: Int, right: Int, k: Int) {
     if (left < right) {
         val mid = (left + right) / 2
         merge(arr, left, mid, k)

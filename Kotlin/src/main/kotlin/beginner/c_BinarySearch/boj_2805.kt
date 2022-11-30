@@ -3,7 +3,7 @@ package beginner.c_BinarySearch
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun solve(arr: LongArray, m: Int): Long {
+private fun solve(arr: LongArray, m: Int): Long {
     var start: Long = 0
     var end: Long? = arr.maxOrNull()
 
