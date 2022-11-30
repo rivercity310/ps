@@ -94,6 +94,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - [쿼드트리](https://www.acmicpc.net/problem/1992)
 - [색종이 만들기](https://www.acmicpc.net/problem/2630)
 - [종이의 개수](https://www.acmicpc.net/problem/1780)
+- [곱셈](https://www.acmicpc.net/problem/1629): 지수법칙과 모듈로 성질에 대해 알아두자!
 
 <br/><br/>
 
@@ -143,6 +144,17 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 #### [트리의 지름](https://www.acmicpc.net/problem/1167)
 - dfs or dijkstra를 이용해서 트리의 지름을 구해보자
 - C++에서는 dfs, Python에서는 dijkstra를 통해 구현해보았다.
+
+<br/>
+
+#### [나머지 합](https://www.acmicpc.net/problem/10986)
+- 두 부분합의 차이는 곧 특정 구간의 합이 되므로, 부분합을 M으로 나눈 나머지가 같은 그룹에서 두 부분합 A,B를 뽑으면, 그 두 부분합이 나타내는 연속된 구간의 합(B-A)을 M으로 나눈 나머지는 0
+
+<br/>
+
+### [행렬 제곱](https://www.acmicpc.net/problem/10830)
+- 범위가 지나치게 커서 까다로웠던 분할정복 문제, 단순 분할정복 방법과 dp를 이용한 분할정복 방법으로 풀어보았다.
+- C++ 풀이에서는 행렬의 곱셈을 간단하게 나타내기 위해 연산자 오버로딩을 사용하였다.
 
 ---
 

@@ -81,7 +81,8 @@ extern void boj_9934();
 
 extern void boj_1992();
 extern void boj_10830();
-
+extern void boj_10830_with_dp();
+extern void boj_1629();
 #endif
 
 #ifdef DP
@@ -107,8 +108,9 @@ extern void boj_1655();
 extern void boj_1956();
 extern void boj_1167();
 extern void boj_2470();
+extern void boj_10986();
 #endif
 
 int main() {
-    boj_10830();
+    boj_10830_with_dp();
 }   

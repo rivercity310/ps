@@ -4,6 +4,7 @@ private const val M = 1e6.toInt() + 1
 private var prefixSum = ULongArray(M) { 0UL }
 private var cnt = ULongArray(M) { 0UL }
 
+/*
 fun boj_10986() = with(System.`in`.bufferedReader()) {
     val (n, m) = readLine()
         .split(" ")
@@ -29,7 +30,7 @@ fun boj_10986() = with(System.`in`.bufferedReader()) {
 
     print(result)
 }
-
+*/
 
 /* O(n^2) 방식 -> 시간 초과 */
 private fun boj_10986_fail() = with(System.`in`.bufferedReader()) {
