@@ -80,9 +80,8 @@ extern void boj_9934();
 #ifdef DIVIDE_AND_CONQUER
 
 extern void boj_1992();
-extern void boj_10830();
-extern void boj_10830_with_dp();
 extern void boj_1629();
+extern void boj_1629_with_dp();
 #endif
 
 #ifdef DP
@@ -109,8 +108,10 @@ extern void boj_1956();
 extern void boj_1167();
 extern void boj_2470();
 extern void boj_10986();
+extern void boj_10830();
+extern void boj_10830_with_dp();
 #endif
 
 int main() {
-    boj_10830_with_dp();
-}   
+    boj_10986();
+}

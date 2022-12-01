@@ -1,58 +1,35 @@
 package intermediate
 
-private const val M = 1e6.toInt() + 1
-private var prefixSum = ULongArray(M) { 0UL }
-private var cnt = ULongArray(M) { 0UL }
-
-/*
 fun boj_10986() = with(System.`in`.bufferedReader()) {
     val (n, m) = readLine()
         .split(" ")
-        .map { it.toULong() }
+        .map { it.toInt() }
 
-    println("n : $n, m : $m")
-
-    var result = 0UL
-
-    for (i in 1..n.toInt()) {
-        val x = read().toInt()
-        println("x: $x")
-
-        prefixSum[i] = (prefixSum[i - 1] + x) % m
-        if (prefixSum[i] == 0UL)
-            result++
-
-        cnt[prefixSum[i].toInt()]++
-    }
-
-    for (i in 0 until m.toInt())
-        result += (cnt[i] * (cnt[i] - 1UL)) / 2UL
-
-    print(result)
-}
-*/
-
-/* O(n^2) 방식 -> 시간 초과 */
-private fun boj_10986_fail() = with(System.`in`.bufferedReader()) {
-    val (n: Long, m: Long) = readLine()
-        .split(" ")
-        .map { it.toLong() }
-
+    val preSum = LongArray(n + 1) { 0 }
+    val cnt = LongArray(m) { 0 }
     val arr = readLine()
         .split(" ")
         .map { it.toLong() }
-        .toLongArray()
 
-    var cnt = 0
-
-    for (left in 0 until n) {
-        var tmp = 0L
-
-        for (right in left until n) {
-            tmp += arr[right.toInt()]
-            if (tmp % m == 0L) cnt++
-        }
+    for (i in 1 until preSum.size) {
+        preSum[i] = (preSum[i - 1] + arr[i - 1])
+        cnt[(preSum[i] % m).toInt()]++
     }
 
-    print(cnt)
+    println("[ preSum ]")
+    for (k in preSum)
+        print("$k ")
+    println()
+
+    println("[ cnt ]")
+    for (k in cnt)
+        print("$k ")
+    println()
+
+    var ans = cnt[0]
+    for (k in cnt)
+        if (k >= 2)
+            ans += k * (k - 1) / 2
+
+    println(ans)
 }
