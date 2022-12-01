@@ -3,7 +3,7 @@ package beginner.d_GraphSearch
 import java.util.*
 
 
-fun solve(grp: Array<MutableList<Int>>, start: Int) {
+private fun solve(grp: Array<MutableList<Int>>, start: Int) {
     val deque = ArrayDeque<Int>()
     val visited = Array<Boolean>(grp.size) { false }
     val ans = Array<Int>(grp.size){ 0 }

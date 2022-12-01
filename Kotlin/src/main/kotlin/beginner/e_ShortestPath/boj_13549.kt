@@ -1,8 +1,8 @@
 package beginner.e_ShortestPath
 
-var ans = -1
+private var ans = -1
 
-fun solve(grp: Array<IntArray>, n: Int, k: Int) {
+private fun solve(grp: Array<IntArray>, n: Int, k: Int) {
     val dq = ArrayDeque<Pair<Int, Int>>()
     val visited = Array(grp.size) { false }
 

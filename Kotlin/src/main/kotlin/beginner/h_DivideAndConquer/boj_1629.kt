@@ -1,7 +1,5 @@
 package beginner.h_DivideAndConquer
 
-
-
 private fun solve(a: ULong, b: ULong, c: ULong): ULong {
     if (b == 1UL) return a % c
 

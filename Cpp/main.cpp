@@ -5,12 +5,12 @@
 
 // ----------------------------------------------------------------------------------
 
-// #define SORTING
-// #define GREEDY
-// #define BINARY_SEARCH
-// #define GRAPH_SEARCH
-// #define SHORTEST_PATH
-// #define MST
+#define SORTING
+#define GREEDY
+#define BINARY_SEARCH
+#define GRAPH_SEARCH
+#define SHORTEST_PATH
+#define MST
 #define TREE
 #define DIVIDE_AND_CONQUER
 #define DP
@@ -57,6 +57,7 @@ extern void lower_and_upper_bound_test();
 extern void boj_24479();
 extern void boj_24445();
 extern void maze_escape_test();
+extern void boj_7562();
 #endif
 
 #ifdef SHORTEST_PATH
@@ -93,6 +94,7 @@ extern void boj_1018();
 extern void boj_2504();
 extern void boj_2740();
 extern void boj_3273();
+extern void boj_1004();
 #endif
 
 #endif
@@ -113,5 +115,5 @@ extern void boj_10830_with_dp();
 #endif
 
 int main() {
-    boj_10986();
+    boj_7562();
 }

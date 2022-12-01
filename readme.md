@@ -64,7 +64,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 미로탈출 (BFS를 이용한 최단거리 사방탐색 -> 가중치가 1인 경우)
 - [미로탐색](https://www.acmicpc.net/problem/2178)
 - [알고리즘 수업 - 너비 우선 탐색 2](https://www.acmicpc.net/problem/24445)
-- [나이트의 이동](https://www.acmicpc.net/problem/7562)    *
+- [나이트의 이동](https://www.acmicpc.net/problem/7562)    
 - [토마토](https://www.acmicpc.net/problem/7576)           *
 
 <br/><br/>
@@ -121,6 +121,9 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 #### [참외밭](https://www.acmicpc.net/problem/2477)
 - 미해결
 
+<br/>
+
+#### [어린 왕자](https://www.acmicpc.net/problem/1004)
 
 <br/><br/>
 

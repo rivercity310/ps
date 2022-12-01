@@ -3,13 +3,13 @@ package beginner.e_ShortestPath
 import java.util.*
 
 
-data class node(val end: Int, val weight: Int): Comparable<node> {
+private data class node(val end: Int, val weight: Int): Comparable<node> {
     override fun compareTo(other: node): Int {
         return this.weight - other.weight
     }
 }
 
-fun solve(grp: MutableList<PriorityQueue<node>>, start: Int, end: Int): Int {
+private fun solve(grp: MutableList<PriorityQueue<node>>, start: Int, end: Int): Int {
     val pq = PriorityQueue<node>()
     val distance = IntArray(grp.size){Int.MAX_VALUE}
 

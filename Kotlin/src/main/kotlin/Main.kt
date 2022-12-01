@@ -10,5 +10,5 @@ import beginner.j_Others.*
 import intermediate.*
 
 fun main() {
-    boj_10986()
+    boj_7562()
 }
