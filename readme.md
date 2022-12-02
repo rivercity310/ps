@@ -65,7 +65,9 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - [미로탐색](https://www.acmicpc.net/problem/2178)
 - [알고리즘 수업 - 너비 우선 탐색 2](https://www.acmicpc.net/problem/24445)
 - [나이트의 이동](https://www.acmicpc.net/problem/7562)    
-- [토마토](https://www.acmicpc.net/problem/7576)           *
+- [토마토](https://www.acmicpc.net/problem/7576)
+- [토마토 3차원](https://www.acmicpc.net/problem/7569)
+- [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)
 
 <br/><br/>
 
@@ -75,6 +77,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - [최소비용 구하기](https://www.acmicpc.net/problem/1916)
 - [최단경로](https://www.acmicpc.net/problem/1753)
 - [숨바꼭질3](https://www.acmicpc.net/problem/13549)
+- [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
 
 <br/><br/>
 
@@ -158,6 +161,10 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 범위가 지나치게 커서 까다로웠던 분할정복 문제, 단순 분할정복 방법과 dp를 이용한 분할정복 방법으로 풀어보았다.
 - C++ 풀이에서는 행렬의 곱셈을 간단하게 나타내기 위해 연산자 오버로딩을 사용하였다.
 - 메모할 범위가 너무 크다면 맵을 이용한 dp를 떠올리자
+
+<br/>
+
+#### [미확인 도착지](https://www.acmicpc.net/problem/9370)
 
 ---
 

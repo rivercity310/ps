@@ -16,6 +16,4 @@ fun boj_2477() = with(System.`in`.bufferedReader()) {
         dir[direction]++
         len.add(length)
     }
-
-
 }

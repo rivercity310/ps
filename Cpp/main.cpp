@@ -58,6 +58,9 @@ extern void boj_24479();
 extern void boj_24445();
 extern void maze_escape_test();
 extern void boj_7562();
+extern void boj_7576();
+extern void boj_7569();
+extern void boj_16928();
 #endif
 
 #ifdef SHORTEST_PATH
@@ -66,6 +69,7 @@ extern void boj_1753();
 extern void boj_13549();
 extern void telegram();
 extern void floyd_warshall();
+extern void boj_1504();
 #endif
 
 #ifdef MST
@@ -95,6 +99,7 @@ extern void boj_2504();
 extern void boj_2740();
 extern void boj_3273();
 extern void boj_1004();
+extern void boj_2477();
 #endif
 
 #endif
@@ -112,8 +117,9 @@ extern void boj_2470();
 extern void boj_10986();
 extern void boj_10830();
 extern void boj_10830_with_dp();
+extern void boj_9370();
 #endif
 
 int main() {
-    boj_7562();
+    boj_2477();
 }

@@ -2,8 +2,6 @@
 // Created by seungsu on 11/30/22.
 //
 
-// 재귀를 이용한 방법 -> 시간초과
-
 #include <iostream>
 #include <vector>
 
