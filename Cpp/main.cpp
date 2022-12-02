@@ -90,7 +90,7 @@ extern void boj_1629_with_dp();
 #endif
 
 #ifdef DP
-
+extern void boj_9184();
 #endif
 
 #ifdef OTHERS
@@ -121,5 +121,5 @@ extern void boj_9370();
 #endif
 
 int main() {
-    boj_2477();
+    boj_9184();
 }
