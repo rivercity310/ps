@@ -2,6 +2,7 @@
 
 #define BEGINNER
 #define INTERMEDIATE
+#define KAKAO2022
 
 // ----------------------------------------------------------------------------------
 
@@ -100,6 +101,8 @@ extern void boj_2740();
 extern void boj_3273();
 extern void boj_1004();
 extern void boj_2477();
+extern void boj_9613();
+extern void boj_1850();
 #endif
 
 #endif
@@ -120,6 +123,12 @@ extern void boj_10830_with_dp();
 extern void boj_9370();
 #endif
 
+
+#ifdef KAKAO2022
+extern void personality_type_check();
+#endif
+
+
 int main() {
-    boj_9184();
+    personality_type_check();
 }

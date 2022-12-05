@@ -104,7 +104,7 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 ### 9. Dynamic Programming
 - [신나는 함수 실행](https://www.acmicpc.net/problem/9184)
 - [파도반 수열](https://www.acmicpc.net/problem/9461)
-- [01타일](https://www.acmicpc.net/problem/1904)
+- [01타일](https://www.acmicpc.net/problem/1904)  *
 
 <br/><br/>
 
@@ -130,6 +130,13 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 <br/>
 
 #### [어린 왕자](https://www.acmicpc.net/problem/1004)
+
+<br/>
+
+#### [GCD 합](https://www.acmicpc.net/problem/9613)
+- 유클리드 호제법: 2개의 자연수의 최대공약수를 구하는 알고리즘
+
+<br/>
 
 <br/><br/>
 

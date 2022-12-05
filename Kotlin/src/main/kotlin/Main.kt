@@ -8,7 +8,8 @@ import beginner.h_DivideAndConquer.*
 import beginner.i_DP.*
 import beginner.j_Others.*
 import intermediate.*
+import KAKAO2022_INTERNSHIP.*
 
 fun main() {
-    boj_1904()
+    personality_type_check()
 }
