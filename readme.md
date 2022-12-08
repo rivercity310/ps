@@ -17,8 +17,8 @@ Python의 타입 힌트와 함수형 구조를 활용하자
 <br/>
 
 +) 2022/12/9 <br/>
-1. C++17의 기능을 활용할 것 (https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
-2. Kotlin과 Java를 통한 풀이에서는 되도록 람다식을 활용할 것
+C++17의 기능을 활용할 것 (https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
+Kotlin과 Java를 통한 풀이에서는 되도록 람다식을 활용할 것
 
 <br/>
 
@@ -149,7 +149,7 @@ Python의 타입 힌트와 함수형 구조를 활용하자
 
 --- 
 
-## [ Intermediate ]
+### [ Intermediate ]
 <br/>
 
 #### [가운데를 말해요](https://www.acmicpc.net/problem/1655) <br/>
@@ -195,14 +195,18 @@ Python의 타입 힌트와 함수형 구조를 활용하자
 
 <br/>
 
+#### Dev-Matching 2021
+[로또의 최고 순위와 최저 순위: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
+
+<br/>
+
 #### KAKAO 2022 TECH INTERNSHIP
 [성격 유형 검사하기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 
 <br/>
 
 #### KAKAO 2022 BLIND RECRUITMENT
-[신고 결과 받기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/92334)
-- C++17에 추가된 구조 분해 선언 활용
+[신고 결과 받기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/92334): C++17의 구조 분해 선언 활용
 
 <br/>
 
