@@ -57,12 +57,12 @@ static string solution(vector<string> survey, vector<int> choices) {
         else if (str == "AN" || str == "NA") {
             if (str[0] == 'A') {
                 if (a < 4) cnt[6] += 4 - a;
-                else if (a > 4) cnt[7] += a % 4;
+                else if (a > 4) cnt[7] += a % DIV;
             }
 
             else {
                 if (a < 4) cnt[7] += 4 - a;
-                else if (a > 4) cnt[6] += a % 4;
+                else if (a > 4) cnt[6] += a % DIV;
             }
         }
     }
@@ -79,7 +79,7 @@ static string solution(vector<string> survey, vector<int> choices) {
     return ans;
 }
 
-void personality_type_check() {
+void internship_ex1() {
     vector<string> survey = {"AN", "CF", "MJ", "RT", "NA"};
     vector<int> choices = {5, 3, 2, 7, 5};
 

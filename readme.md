@@ -1,17 +1,24 @@
 ## 삼성 SW 공채 & 이코테 & 백준 문제풀이
 
-정답 처리 받은 코드만 등록
-   
+---  
+## Comments
+
 <br/>
 
 +) 2022/11/19 <br/>
-Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함수형 구조 
+Python의 타입 힌트와 함수형 구조를 활용하자 
 (https://github.com/rivercity310/Samsung_Software_Test/blob/main/Python/beginner/01_Sorting/boj_2108.py)
 
 <br/>
 
 +) 2022/11/25 <br/>
-앞으로 Java 코드는 점진적으로 Kotlin으로 대체할 예정 (공부중...)
+앞으로 Python 코드는 점진적으로 Kotlin으로 대체할 예정 (공부중...)
+
+<br/>
+
++) 2022/12/9 <br/>
+1. C++17의 기능을 활용할 것 (https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
+2. Kotlin과 Java를 통한 풀이에서는 되도록 람다식을 활용할 것
 
 <br/>
 
@@ -178,6 +185,26 @@ Python 코드 구조를 다음과 같이 짜도록 하자 -> 타입 힌트, 함�
 - 다익스트라 알고리즘을 이용하여, 특정 간선을 지나간 경우를 탐색
 - 출발지 -> 도착지의 최단거리와 출발지 -> 특정간선 -> 도착지의 최단 거리가 같다면, 반드시 특정간선을 지나간다.
 
+<br/>
+
+---
+
+## [ Programmers 기업 기출 ]
+나의 풀이와 다른 사람의 풀이를 비교, 분석해보기 <br/>
+특히 Kotlin을 통한 함수형 풀이에 대해 공부하자
+
+<br/>
+
+#### KAKAO 2022 TECH INTERNSHIP
+[성격 유형 검사하기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+
+<br/>
+
+#### KAKAO 2022 BLIND RECRUITMENT
+[신고 결과 받기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/92334)
+- C++17에 추가된 구조 분해 선언 활용
+
+<br/>
 
 ---
 

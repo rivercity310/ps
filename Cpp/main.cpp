@@ -2,7 +2,7 @@
 
 #define BEGINNER
 #define INTERMEDIATE
-#define KAKAO2022
+#define PROGRAMMERS
 
 // ----------------------------------------------------------------------------------
 
@@ -112,7 +112,6 @@ extern void boj_1850();
 
 
 #ifdef INTERMEDIATE
-
 extern void boj_1655();
 extern void boj_1956();
 extern void boj_1167();
@@ -124,11 +123,17 @@ extern void boj_9370();
 #endif
 
 
-#ifdef KAKAO2022
-extern void personality_type_check();
+#ifdef PROGRAMMERS
+extern void internship_ex1();
+extern void internship_ex2();
+extern void internship_ex3();
+
+extern void blind_ex1();
+
+extern void backend_ex1();
 #endif
 
 
 int main() {
-    personality_type_check();
+    backend_ex1();
 }
