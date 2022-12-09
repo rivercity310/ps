@@ -73,7 +73,7 @@ static vector<int> solution2(vector<string> id_list, vector<string> report, int 
     return ret;
 }
 
-void blind_ex1() {
+void bl2022_ex1() {
     fastio;
     vector<string> id_list = { "muzi", "frodo", "apeach", "neo" };
     vector<string> report = { "muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi" };

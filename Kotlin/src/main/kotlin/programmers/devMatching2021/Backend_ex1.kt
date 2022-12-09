@@ -5,19 +5,20 @@ private class Solution {
         val n = lottos.size
         var cor = 0
         var zero = 0
-        val wrong by lazy { n - cor - zero }
+        var wrong = 0
 
-        lottos.forEach {
-            if (it == 0) zero++
-            else if (it in win_nums) cor++
-        }
-
-        return when {
+        return lottos.map {
+            when (it) {
+                0 -> zero++
+                in win_nums -> cor++
+                else -> wrong++
+            }
+        }.run { when {
             cor == n -> intArrayOf(1, 1)
-            wrong == n -> intArrayOf(6, 6)
             zero == n -> intArrayOf(1, 6)
-            else -> intArrayOf(wrong + 1, wrong + zero + 1)
-        }
+            wrong == n -> intArrayOf(6, 6)
+            else -> intArrayOf(wrong + 1, n - cor + 1)
+        }}
     }
 }
 
@@ -35,6 +36,6 @@ private class Solution2 {
 fun backend_ex1() {
     val lottos = intArrayOf(0, 0, 0, 0, 0, 0)
     val win_nums = intArrayOf(38, 19, 20, 40, 15, 25)
-    val (max, min) = Solution2().solution(lottos, win_nums)
-    println("max: $max, min: $min")
+    val (max, min) = Solution().solution(lottos, win_nums)
+    println("$max $min")
 }

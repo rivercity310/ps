@@ -128,12 +128,13 @@ extern void internship_ex1();
 extern void internship_ex2();
 extern void internship_ex3();
 
-extern void blind_ex1();
+extern void bl2021_ex1();
+extern void bl2022_ex1();
 
 extern void backend_ex1();
 #endif
 
 
 int main() {
-    backend_ex1();
+    bl2021_ex1();
 }

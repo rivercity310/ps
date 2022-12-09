@@ -1,4 +1,4 @@
-package programmers.kakao_blind2022
+package programmers.kakao_blind
 
 private class Solution {
     fun solution(id_list: Array<String>, report: Array<String>, k: Int): IntArray =

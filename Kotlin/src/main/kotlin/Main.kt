@@ -1,6 +1,6 @@
 import programmers.devMatching2021.*
-import programmers.kakao_blind2022.*
+import programmers.kakao_blind.*
 
 fun main() {
-    backend_ex1()
+    blind2021_ex1()
 }
