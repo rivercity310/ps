@@ -195,8 +195,18 @@ Kotlin과 Java를 통한 풀이에서는 되도록 람다식을 활용할 것
 
 <br/>
 
+#### KAKAO 2019 BLIND RECRUITMENT
+[실패율: LV.1](https://school.programmers.co.kr/learn/courses/30/lessons/42889?language=kotlin)
+
+<br/>
+
 #### Dev-Matching 2021
 [로또의 최고 순위와 최저 순위: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
+
+<br/>
+
+#### KAKAO 2021 BLIND RECRUITMENT
+[신규 아이디 추천: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/72410): Regex 활용
 
 <br/>
 

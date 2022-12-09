@@ -2,35 +2,41 @@ package programmers.kakao_blind
 
 
 private class Blind2021_ex1 {
-
     fun String.checkStr(): String {
         if (this.isEmpty()) return "a"
-        else if (this.length >= 16) {
-            val str = this.substring(0, 15)
-            return if (str.endsWith('.')) str.substring(0, 14)
+        else if (this.length > 15) {
+            val str = this.substring(0 until 15)
+            return if (str.endsWith('.')) str.substring(0 until 14)
             else str
         }
         return this
     }
 
+    /*
     fun String.checkSize(): String {
-        var str = this
-        while (str.length < 3)
-            str += this.last()
+        val sb = StringBuilder(this)
+        while (sb.length < 3)
+            sb.append(this.last())
 
-        return str
+        return sb.toString()
     }
+    */
 
     fun solution(new_id: String): String {
         return new_id
             .map { it.lowercaseChar() }
-            .filter { it in '0'..'9' || it in 'a'..'z' || it in "-_." }
+            .filter { it.isDigit() || it.isLowerCase() || it in "-_." }
             .joinToString("")
-            .split(".")
-            .filter { it.isNotEmpty() }
-            .joinToString(".")
+            .replace("[.]*[.]".toRegex(), ".")
+            .removePrefix(".")
+            .removeSuffix(".")
             .checkStr()
-            .checkSize()
+            .let {
+                StringBuilder(it).run {
+                    while (length < 3) append(it.last())
+                    toString()
+                }
+            }
     }
 }
 
