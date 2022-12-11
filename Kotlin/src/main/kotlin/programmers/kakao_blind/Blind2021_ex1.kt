@@ -31,9 +31,9 @@ private class Blind2021_ex1 {
             .removePrefix(".")
             .removeSuffix(".")
             .checkStr()
-            .let {
-                StringBuilder(it).run {
-                    while (length < 3) append(it.last())
+            .apply {
+                StringBuilder(this).run {
+                    while (length < 3) append(this.last())
                     toString()
                 }
             }

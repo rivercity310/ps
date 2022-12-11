@@ -1,16 +1,14 @@
 package programmers.kakao_blind
 
 class Blind2019_ex1 {
-    fun solution(N: Int, stages: IntArray): IntArray {
+    fun solution(n: Int, stages: IntArray): IntArray {
         val rst = ArrayList<Pair<Double, Int>>()
 
-        generateSequence(1) { it + 1 }
-            .takeWhile { it <= N }
+        generateSequence(1) { it + 1 }.takeWhile { it <= n }
             .forEach { stage ->
                 val done = stages.count { it >= stage }
                 val challenging = stages.count { it == stage }
-                val fail: Double = if (challenging == 0) 0.0 else challenging / done.toDouble()
-
+                val fail: Double = if (done == 0) 0.0 else challenging / done.toDouble()
                 rst.add(fail to stage)
             }
 

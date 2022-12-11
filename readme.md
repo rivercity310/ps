@@ -1,4 +1,4 @@
-## 삼성 SW 공채 & 이코테 & 백준 문제풀이
+## 삼성 SW 공채 & 이코테 & 백준 & 프로그래머스 문제풀이
 
 ---  
 ## Comments
@@ -21,6 +21,36 @@ C++17의 기능을 활용할 것 (https://github.com/tvaneerd/cpp17_in_TTs/blob/
 Kotlin과 Java를 통한 풀이에서는 되도록 람다식을 활용할 것
 
 <br/>
+
++) 2022/12/12 <br/>
+Java 코드 구조 참고
+
+```java
+public class blind2021_ex1 {
+    private static class Solution {
+        public String solution(String new_id) {
+            return new KakaoID(new_id)
+                    .replaceToLowerCase()
+                    .filter()
+                    .toSingleDot()
+                    .emptyCheck()
+                    .rangeCheck()
+                    .getResult();
+        }
+
+        private static class KakaoID {
+            private String s;
+            KakaoID(String s) { this.s = s; }
+            private KakaoID replaceToLowerCase() { /*...*/ return this; }
+            private KakaoID filter() { /*...*/ return this; }
+            private KakaoID toSingleDot() { /*...*/ return this; }
+            private KakaoID emptyCheck() { /*...*/ return this; }
+            private KakaoID rangeCheck() { /*...*/ return this; }
+            private String getResult() { return this.s; }
+        }
+    }
+}
+```
 
 ---
 
