@@ -10,12 +10,8 @@ private val dy = intArrayOf(0, 0, -1, 1)
 private val Pt = ArrayList<Pair<Int, Int>>()
 private lateinit var Matrix: Array<IntArray>
 
-
 private fun check_arr(): Boolean {
-    for (mat in Matrix)
-        for (m in mat)
-            if (m == 0) return false
-
+    for (mat in Matrix) for (m in mat) if (m == 0) return false
     return true
 }
 

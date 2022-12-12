@@ -6,7 +6,6 @@ private val visited = BooleanArray(MAX) { false }
 private var target = -1
 private var max_dist = -1
 
-
 private fun dfs(node: Int, sum: Int) {
     visited[node] = true
 
@@ -16,17 +15,13 @@ private fun dfs(node: Int, sum: Int) {
     }
 
     for ((next, weight) in grp[node])
-        if (!visited[next])
-            dfs(next, sum + weight)
+        if (!visited[next]) dfs(next, sum + weight)
 }
 
 private fun solve(): Int {
     dfs(1, 0)
-
     visited.fill(false)
-
     dfs(target, 0)
-
     return max_dist
 }
 

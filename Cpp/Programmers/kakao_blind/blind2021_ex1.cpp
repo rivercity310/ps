@@ -4,7 +4,6 @@
 using namespace std;
 
 static string solution(string new_id) {
-    new_id.
 }
 
 void bl2021_ex1() {

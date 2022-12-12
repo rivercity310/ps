@@ -9,8 +9,7 @@ private fun solve(matrix: Array<IntArray>): Int {
     deque.add(Pair(0, 0))
 
     while (deque.isNotEmpty()) {
-        val (x, y) = deque.first()
-        deque.removeFirst()
+        val (x, y) = deque.removeFirst()
 
         for (i in 0..3) {
             val tx = x + dx[i]

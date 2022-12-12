@@ -60,9 +60,7 @@ fun boj_9370() = with(System.`in`.bufferedReader()) {
             val dist = Dijk(grp, s, end)
             val comp = Dijk(grp, s, g) + Dijk(grp, g, h) + Dijk(grp, h, end)
             val comp2 = Dijk(grp, s, h) + Dijk(grp, h, g) + Dijk(grp, g, end)
-
-            if (dist == minOf(comp, comp2))
-                ans.add(end)
+            if (dist == minOf(comp, comp2)) ans.add(end)
         }
 
         ans.sort()

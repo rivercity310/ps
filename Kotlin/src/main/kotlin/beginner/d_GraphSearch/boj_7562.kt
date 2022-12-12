@@ -4,8 +4,7 @@ private val dx = intArrayOf(-1, -1, 1, 1, -2, -2, 2, 2)
 private val dy = intArrayOf(-2, 2, -2, 2, -1, 1, -1, 1)
 
 private fun dfs(x1: Int, y1: Int, x2: Int, y2: Int, l: Int): Int {
-    if (x1 == x2 && y1 == y2)
-        return 0
+    if (x1 == x2 && y1 == y2) return 0
 
     val m = Array(l) { IntArray(l) { 0 } }
     val q = ArrayDeque<Pair<Int, Int>>()
@@ -19,8 +18,7 @@ private fun dfs(x1: Int, y1: Int, x2: Int, y2: Int, l: Int): Int {
             val tx = nx + dx[i]
             val ty = ny + dy[i]
 
-            if (tx < 0 || ty < 0 || tx >= l || ty >= l)
-                continue
+            if (tx < 0 || ty < 0 || tx >= l || ty >= l) continue
 
             if (m[tx][ty] == 0) {
                 m[tx][ty] = m[nx][ny] + 1
@@ -28,7 +26,6 @@ private fun dfs(x1: Int, y1: Int, x2: Int, y2: Int, l: Int): Int {
             }
         }
     }
-
 
     return m[x2][y2]
 }

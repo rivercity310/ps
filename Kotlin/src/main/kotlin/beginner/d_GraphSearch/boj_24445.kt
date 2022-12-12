@@ -2,7 +2,6 @@ package beginner.d_GraphSearch
 
 import java.util.*
 
-
 private fun solve(grp: Array<MutableList<Int>>, start: Int) {
     val deque = ArrayDeque<Int>()
     val visited = Array<Boolean>(grp.size) { false }
@@ -24,8 +23,7 @@ private fun solve(grp: Array<MutableList<Int>>, start: Int) {
         }
     }
 
-    for (i in 1 until ans.size)
-        println(ans[i])
+    for (i in 1 until ans.size) println(ans[i])
 }
 
 
@@ -45,8 +43,6 @@ fun boj_24445() = with(System.`in`.bufferedReader()) {
         grp[v].add(u)
     }
 
-    for (g in grp)
-        g.sortDescending()
-
+    for (g in grp) g.sortDescending()
     solve(grp, r)
 }

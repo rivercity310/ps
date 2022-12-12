@@ -128,6 +128,7 @@ extern void internship_ex1();
 extern void internship_ex2();
 extern void internship_ex3();
 
+extern void bl2018_ex1();
 extern void bl2021_ex1();
 extern void bl2022_ex1();
 
@@ -136,5 +137,5 @@ extern void backend_ex1();
 
 
 int main() {
-    bl2021_ex1();
+    bl2018_ex1();
 }
