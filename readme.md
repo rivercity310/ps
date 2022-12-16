@@ -126,7 +126,8 @@ public class blind2021_ex1 {
 ### 7. Tree
 - [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
 - [완전 이진 트리](https://www.acmicpc.net/problem/9934)
-
+- [트리 순회](https://www.acmicpc.net/problem/1991)
+- [나무 탈출](https://www.acmicpc.net/problem/15900)
 
 <br/><br/>
 
@@ -142,6 +143,7 @@ public class blind2021_ex1 {
 - [신나는 함수 실행](https://www.acmicpc.net/problem/9184)
 - [파도반 수열](https://www.acmicpc.net/problem/9461)
 - [01타일](https://www.acmicpc.net/problem/1904)  *
+- [포도주 시식](https://www.acmicpc.net/problem/2156)
 
 <br/><br/>
 

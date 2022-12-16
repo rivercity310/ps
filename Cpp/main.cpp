@@ -135,7 +135,5 @@ extern void bl2022_ex1();
 extern void backend_ex1();
 #endif
 
-
 int main() {
-    bl2018_ex1();
 }

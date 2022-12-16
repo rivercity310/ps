@@ -32,15 +32,12 @@ static vector<int> solution(vector<string> id_list, vector<string> report, int k
         }
     }
 
-    for (int a = 0; a < n; a++) {
-        if (reportee_cnt[a] >= k) {
-            for (int i = 0; i < n; i++) {
+    for (int a = 0; a < n; a++)
+        if (reportee_cnt[a] >= k)
+            for (int i = 0; i < n; i++)
                 if (isReported[i][a] == true) {
                     answer[i]++;
                 }
-            }
-        }
-    }
 
     return answer;
 }

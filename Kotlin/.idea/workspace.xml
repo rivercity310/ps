@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cpp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/.idea/Cpp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-703d3d3ec8daec346391.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-15428c63404f96ba1b5f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9c0869855b0c6e865149.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-13T15-06-52-0596.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/target-Cpp-Debug-ef8c937585032df23061.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ffb6434f9d66dd28afdb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/BubbleSort.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/CountSort.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/Insertion_Shell_Sort.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/MergeSort.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/QuickSort.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/SelectionSort.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/boj_18870.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/boj_2108.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/01_Sorting/boj_24060.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/02_Greedy/BigNumber.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/02_Greedy/CardGame.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/02_Greedy/Exchange.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/02_Greedy/UntilNumberOne.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/02_Greedy/boj_13305.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/02_Greedy/boj_1931.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/Lower_and_Upper_bound.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/binSearch.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/boj_1654.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/boj_2110.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/boj_2110_c.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/boj_2805.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/cuttingRiceCake.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/03_BinarySearch/findPart.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/boj_16928.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/boj_24445.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/boj_24479.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/boj_7562.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/boj_7569.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/boj_7576.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/04_GraphSearch/maze_escape.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/05_ShortestPath/boj_13549.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/05_ShortestPath/boj_1504.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/05_ShortestPath/boj_1753.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/05_ShortestPath/boj_1916.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/05_ShortestPath/floyd_warshall.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/05_ShortestPath/telegram.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/07_Tree/boj_11725.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/07_Tree/boj_9934.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/08_DivideAndConquer/boj_1629.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/08_DivideAndConquer/boj_1629_with_dp.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/08_DivideAndConquer/boj_1992.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/09_DP/boj_9184.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_1004.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_1018.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_1850.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_2470.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_2477.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_2504.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_2740.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_3273.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/Others/boj_9613.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_10830.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_10830_with_dp.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_10986.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_1167.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_1655.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_1956.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Intermediate/boj_9370.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/devMatching2021/Backend_ex1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2018_ex1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2021_ex1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2022_ex1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_internship2022/kakao2022_Internship_ex1.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_internship2022/kakao2022_Internship_ex2.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_internship2022/kakao2022_Internship_ex3.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/software_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/a_Sorting/Boj_24060Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/a_Sorting/Quick_sort2Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/a_Sorting/Quick_sortKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_1654Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_2110Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_2805Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_2178Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_24445Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_7562Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_7576Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Boj_13549Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Boj_1753Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Boj_1916Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/f_MST/DisjointSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/f_MST/KruskalKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/f_MST/ND.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/HeapKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/Heapq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1629Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1629_with_dpKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1780Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1992Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_2630Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_2740Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1904Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_9184Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_9461Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_1004Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_1018Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_2477Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_2504Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_3053Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_10830Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_10830_with_dpKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_10986Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_1167Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_9370Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/devMatching2021/Backend_ex1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/devMatching2021/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/devMatching2021/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2018_ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2018_ex1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2019_ex1$solution$$inlined$compareBy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2019_ex1$solution$$inlined$thenBy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2019_ex1$solution$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2019_ex1$solution$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2019_ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2019_ex1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2021_ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2021_ex1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2022_ex1Kt$blind2022_ex1$$inlined$groupingBy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2022_ex1Kt$blind2022_ex1$phase2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2022_ex1Kt$blind2022_ex1$phase3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2022_ex1Kt$blind2022_ex1$phase4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Blind2022_ex1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Solution$solution$$inlined$groupingBy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Solution$solution$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Solution$solution$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Solution$solution$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_blind/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_internship2022/Internship2022_ex1Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/programmers/kakao_internship2022/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/boj_1991.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_2156.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/Programmers/kakao_blind/blind2021_ex1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/Programmers/kakao_blind/blind2021_ex1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/Programmers/kakao_blind/blind2022_ex1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/Programmers/kakao_blind/blind2022_ex1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/Programmers/kakao_internship2022/kakao2022_Internship_ex3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/Programmers/kakao_internship2022/kakao2022_Internship_ex3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IutjiIegwDEM9oOgjtnTRxVLc9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/seungsu/workspace/software_test/readme.md",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="" />
+      <created>1671043434701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671043434701</updated>
+      <workItem from="1671043435848" duration="86000" />
+      <workItem from="1671187290841" duration="10812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

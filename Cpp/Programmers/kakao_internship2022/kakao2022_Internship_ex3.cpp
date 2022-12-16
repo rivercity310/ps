@@ -27,7 +27,6 @@ static vector<int> solution(int n, vector<vector<int>> paths, vector<int> gates,
             for (vector<int>& v : paths) {
                 int src = v[0];
                 int dst = v[1];
-                int weight = v[2];
 
                 if (now == src && !visited[dst]) {
                     visited[dst] = true;
