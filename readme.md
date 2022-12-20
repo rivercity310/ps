@@ -135,56 +135,40 @@ public class blind2021_ex1 {
 - [쿼드트리](https://www.acmicpc.net/problem/1992)
 - [색종이 만들기](https://www.acmicpc.net/problem/2630)
 - [종이의 개수](https://www.acmicpc.net/problem/1780)
-- [곱셈](https://www.acmicpc.net/problem/1629): 지수법칙과 모듈로 성질에 대해 알아두자!
+- [곱셈](https://www.acmicpc.net/problem/1629)
 
 <br/><br/>
 
 ### 9. Dynamic Programming
 - [신나는 함수 실행](https://www.acmicpc.net/problem/9184)
 - [파도반 수열](https://www.acmicpc.net/problem/9461)
-- [01타일](https://www.acmicpc.net/problem/1904)  *
+- [01타일](https://www.acmicpc.net/problem/1904)
 - [포도주 시식](https://www.acmicpc.net/problem/2156)
+- [연속합](https://www.acmicpc.net/problem/1912) *
+- [정수 삼각형](https://www.acmicpc.net/problem/1932)
+- [이항 계수2](https://www.acmicpc.net/problem/11051)
 
 <br/><br/>
+
+### 10. Back-Tracking
+- [N과 M (1, 2, 3)](https://www.acmicpc.net/problem/15651)
+
 
 ### Others
 
-#### [행렬 곱셈](https://www.acmicpc.net/problem/2740)
-
-<br/>
-
-#### [괄호의 값](https://www.acmicpc.net/problem/2504)
-- 스택을 이용한 문제
-
-<br/>
-
-#### [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
-- 모든 경우의 수를 탐색하는 브루트 포스(무차별 대입) 방식
-
-<br/>
-
-#### [참외밭](https://www.acmicpc.net/problem/2477)
-
-
-<br/>
-
-#### [어린 왕자](https://www.acmicpc.net/problem/1004)
-
-<br/>
-
-#### [GCD 합](https://www.acmicpc.net/problem/9613)
-- 유클리드 호제법: 2개의 자연수의 최대공약수를 구하는 알고리즘
-
-<br/>
-
-<br/><br/>
+- [행렬 곱셈](https://www.acmicpc.net/problem/2740)
+- [괄호의 값](https://www.acmicpc.net/problem/2504)
+- [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
+- [참외밭](https://www.acmicpc.net/problem/2477)
+- [어린 왕자](https://www.acmicpc.net/problem/1004)
+- [GCD 합](https://www.acmicpc.net/problem/9613)
 
 --- 
 
 ### [ Intermediate ]
 <br/>
 
-#### [가운데를 말해요](https://www.acmicpc.net/problem/1655) <br/>
+#### [가운데를 말해요](https://www.acmicpc.net/problem/1655)
 - 힙을 이용해서 매번 들어오는 데이터에 대한 중앙값을 구하는 문제
 
 <br/>
@@ -219,6 +203,9 @@ public class blind2021_ex1 {
 
 <br/>
 
+#### [문제집](https://www.acmicpc.net/problem/1766) *
+- 위상정렬에 특정 조건을 추가한 문제
+
 ---
 
 ## [ Programmers 기업 기출 ]
@@ -227,30 +214,28 @@ public class blind2021_ex1 {
 
 <br/>
 
-#### KAKAO 2019 BLIND RECRUITMENT
-[실패율: LV.1](https://school.programmers.co.kr/learn/courses/30/lessons/42889?language=kotlin)
+#### KAKAO 2018 BLIND
+- [다트 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17682)
+- [비밀 지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
 
-<br/>
+#### KAKAO 2019 BLIND
+- [실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889?language=kotlin)
 
-#### Dev-Matching 2021
-[로또의 최고 순위와 최저 순위: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 
-<br/>
+#### KAKAO 2021 BLIND
+- [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410): Regex 활용
 
-#### KAKAO 2021 BLIND RECRUITMENT
-[신규 아이디 추천: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/72410): Regex 활용
-
-<br/>
 
 #### KAKAO 2022 TECH INTERNSHIP
-[성격 유형 검사하기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+- [성격 유형 검사하기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 
-<br/>
 
 #### KAKAO 2022 BLIND RECRUITMENT
-[신고 결과 받기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/92334): C++17의 구조 분해 선언 활용
+- [신고 결과 받기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/92334): C++17의 구조 분해 선언 활용
 
-<br/>
+
+#### Dev-Matching 2021
+- [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 
 ---
 

@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/c_BinarySearch/boj_12015.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_11051.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1912.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1932.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15649.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15650.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15651.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_1766.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1904Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1904Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1904.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1904.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/seungsu/seungsu/workspace/study/03_Spring/java_spring/build.gradle",
+    "last_opened_file_path": "/home/seungsu/workspace/software_test/readme.md",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +72,7 @@
       <workItem from="1671043435848" duration="86000" />
       <workItem from="1671187290841" duration="10812000" />
       <workItem from="1671501601820" duration="9456000" />
+      <workItem from="1671520652604" duration="13465000" />
     </task>
     <servers />
   </component>
