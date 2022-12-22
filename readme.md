@@ -128,6 +128,7 @@ public class blind2021_ex1 {
 - [완전 이진 트리](https://www.acmicpc.net/problem/9934)
 - [트리 순회](https://www.acmicpc.net/problem/1991)
 - [나무 탈출](https://www.acmicpc.net/problem/15900)
+- [전화번호 목록](https://www.acmicpc.net/problem/5052)
 
 <br/><br/>
 

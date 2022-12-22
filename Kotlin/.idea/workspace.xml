@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15649.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15650.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15651.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_1766.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/g_Tree/boj_5052.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/boj_5052.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14888.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15652.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Heapq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Tree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/boj_1991.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/boj_9934.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/H_DP/boj_1463.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Intermediate/boj_1766$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Intermediate/boj_1766.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1904Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1904Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1904.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1904.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/seungsu/workspace/software_test/readme.md",
+    "last_opened_file_path": "/home/seungsu/workspace/software_test/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +79,8 @@
       <workItem from="1671043435848" duration="86000" />
       <workItem from="1671187290841" duration="10812000" />
       <workItem from="1671501601820" duration="9456000" />
-      <workItem from="1671520652604" duration="13465000" />
+      <workItem from="1671520652604" duration="13634000" />
+      <workItem from="1671706804031" duration="6719000" />
     </task>
     <servers />
   </component>
