@@ -16,6 +16,7 @@
 #define DIVIDE_AND_CONQUER
 #define DP
 #define OTHERS
+#define BACKTRACKING
 
 // ----------------------------------------------------------------------------------
 
@@ -105,6 +106,10 @@ extern void boj_9613();
 extern void boj_1850();
 #endif
 
+#ifdef BACKTRACKING
+extern void boj_9663();
+#endif
+
 #endif
 
 
@@ -136,4 +141,5 @@ extern void backend_ex1();
 #endif
 
 int main() {
+    boj_9663();
 }

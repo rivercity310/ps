@@ -7,5 +7,5 @@ import beginner.k_backtracking.*
 import intermediate.*
 
 fun main() {
-    boj_14888()
+    boj_9663()
 }

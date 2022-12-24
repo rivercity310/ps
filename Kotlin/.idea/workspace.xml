@@ -5,24 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java/Beginner/g_Tree/boj_5052.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/boj_5052.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14888.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15652.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Heapq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Tree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/boj_1991.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/G_Tree/boj_9934.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/H_DP/boj_1463.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Intermediate/boj_1766$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Intermediate/boj_1766.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_9663.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15649.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15651.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15652.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_6603.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_9663.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_6603.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_9663.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-703d3d3ec8daec346391.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-15428c63404f96ba1b5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9c0869855b0c6e865149.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-13T15-06-52-0596.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/target-Cpp-Debug-ef8c937585032df23061.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2021_ex1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2021_ex1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2022_ex1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_blind/blind2022_ex1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_internship2022/kakao2022_Internship_ex3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Programmers/kakao_internship2022/kakao2022_Internship_ex3.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/boj_5052.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/boj_5052.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +70,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/seungsu/workspace/software_test/Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/seungsu/workspace/software_test/Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,6 +98,9 @@
       <workItem from="1671501601820" duration="9456000" />
       <workItem from="1671520652604" duration="13634000" />
       <workItem from="1671706804031" duration="6719000" />
+      <workItem from="1671793026068" duration="2621000" />
+      <workItem from="1671871714580" duration="5755000" />
+      <workItem from="1671879618220" duration="4737000" />
     </task>
     <servers />
   </component>
