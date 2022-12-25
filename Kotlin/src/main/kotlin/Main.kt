@@ -1,3 +1,4 @@
+import beginner.b_Greedy.*
 import beginner.g_Tree.*
 import beginner.c_BinarySearch.*
 import programmers.devMatching2021.*
@@ -7,5 +8,5 @@ import beginner.k_backtracking.*
 import intermediate.*
 
 fun main() {
-    boj_2580()
+    boj_1946()
 }

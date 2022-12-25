@@ -5,34 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_14888.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_14889.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_2580.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_14888.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_14889.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_2580.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14889.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_2580.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_9663_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_9663.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_9663.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c2adebcdd00b50a1f128.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-24T13-12-12-0869.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/target-Cpp-Debug-6979e95557badb3c9641.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/10_BackTracking/boj_9663.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/Beginner/10_BackTracking/boj_9663.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1026.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_10610.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1789.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1946.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_2217.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_14888Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_14888Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_2580Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_2580Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14888.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14888.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/seungsu/workspace/software_test/Kotlin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/seungsu/workspace/Team3/build.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,7 +78,11 @@
       <workItem from="1671871714580" duration="5755000" />
       <workItem from="1671879618220" duration="4737000" />
       <workItem from="1671901476105" duration="7117000" />
-      <workItem from="1671949481356" duration="2424000" />
+      <workItem from="1671949481356" duration="5657000" />
+      <workItem from="1671958226406" duration="88000" />
+      <workItem from="1671958328539" duration="155000" />
+      <workItem from="1671958626039" duration="150000" />
+      <workItem from="1671958800391" duration="5539000" />
     </task>
     <servers />
   </component>

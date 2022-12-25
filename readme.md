@@ -1,9 +1,14 @@
 ## 삼성 SW 공채 & 이코테 & 백준 & 프로그래머스 문제풀이
 
----  
+---
+
+### 소스코드 보기 (Click)
+[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python) [<img src="https://img.shields.io/badge/Kotlin-3b5998?style=flat&logo=Kotlin&logoColor=white"/>](https://github.com/rivercity310/software_test/tree/main/Kotlin/src/main/kotlin)
+
+---
+
 ## Comments
 
-<br/>
 
 +) 2022/11/19 <br/>
 Python의 타입 힌트와 함수형 구조를 활용하자 
@@ -11,14 +16,8 @@ Python의 타입 힌트와 함수형 구조를 활용하자
 
 <br/>
 
-+) 2022/11/25 <br/>
-앞으로 Python 코드는 점진적으로 Kotlin으로 대체할 예정 (공부중...)
-
-<br/>
-
 +) 2022/12/9 <br/>
 C++17의 기능을 활용할 것 (https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
-Kotlin과 Java를 통한 풀이에서는 되도록 람다식을 활용할 것
 
 <br/>
 
@@ -54,14 +53,8 @@ public class blind2021_ex1 {
 
 ---
 
-### 소스코드 보기 (Click) 
-[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python) [<img src="https://img.shields.io/badge/Kotlin-3b5998?style=flat&logo=Kotlin&logoColor=white"/>](https://github.com/rivercity310/software_test/tree/main/Kotlin/src/main/kotlin)
----
-<br/>
-
-## [ Beginner ]  
-
-<br/>
+<details>
+    <summary><h2>Beginner</h2></summary>
 
 ### 1. Sorting
 - 버블정렬
@@ -69,9 +62,9 @@ public class blind2021_ex1 {
 - 삽입정렬과 셸정렬(삽입정렬의 응용)
 - 병합정렬과 퀵정렬
 - 계수정렬
-- [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060) 
+- [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060)
 - [좌표압축](https://www.acmicpc.net/problem/18870)
-- [통계학](https://www.acmicpc.net/problem/2108) 
+- [통계학](https://www.acmicpc.net/problem/2108)
 
 <br/><br/>
 
@@ -93,7 +86,7 @@ public class blind2021_ex1 {
 - [랜선 자르기](https://www.acmicpc.net/problem/1654)
 - [나무 자르기](https://www.acmicpc.net/problem/2805)
 - [공유기 설치](https://www.acmicpc.net/problem/2110)
-- [K번째 수](https://www.acmicpc.net/problem/1300)     
+- [K번째 수](https://www.acmicpc.net/problem/1300)
 
 <br/><br/>
 
@@ -101,7 +94,7 @@ public class blind2021_ex1 {
 - 미로탈출 (BFS를 이용한 최단거리 사방탐색 -> 가중치가 1인 경우)
 - [미로탐색](https://www.acmicpc.net/problem/2178)
 - [알고리즘 수업 - 너비 우선 탐색 2](https://www.acmicpc.net/problem/24445)
-- [나이트의 이동](https://www.acmicpc.net/problem/7562)    
+- [나이트의 이동](https://www.acmicpc.net/problem/7562)
 - [토마토](https://www.acmicpc.net/problem/7576)
 - [토마토 3차원](https://www.acmicpc.net/problem/7569)
 - [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)
@@ -153,10 +146,14 @@ public class blind2021_ex1 {
 
 ### 10. Back-Tracking
 - [N과 M (1, 2, 3)](https://www.acmicpc.net/problem/15651)
+- [N-Queen](https://www.acmicpc.net/problem/9663)
+- [스도쿠](https://www.acmicpc.net/problem/2580)
+- [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
+- [스타트와 링크](https://www.acmicpc.net/problem/14889)
 
+<br/><br/>
 
 ### Others
-
 - [행렬 곱셈](https://www.acmicpc.net/problem/2740)
 - [괄호의 값](https://www.acmicpc.net/problem/2504)
 - [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
@@ -164,10 +161,13 @@ public class blind2021_ex1 {
 - [어린 왕자](https://www.acmicpc.net/problem/1004)
 - [GCD 합](https://www.acmicpc.net/problem/9613)
 
+</details>
+
+
 --- 
 
-### [ Intermediate ]
-<br/>
+<details>
+<summary><h2>Intermediate</h2></summary>
 
 #### [가운데를 말해요](https://www.acmicpc.net/problem/1655)
 - 힙을 이용해서 매번 들어오는 데이터에 대한 중앙값을 구하는 문제
@@ -206,6 +206,8 @@ public class blind2021_ex1 {
 
 #### [문제집](https://www.acmicpc.net/problem/1766) *
 - 위상정렬에 특정 조건을 추가한 문제
+</details>
+
 
 ---
 
