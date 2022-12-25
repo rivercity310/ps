@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1026.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_10610.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1789.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1946.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_2217.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_16953Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1439.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_16953.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_2580Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_2580Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_10610Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_10610Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_10610.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_10610.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1946.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1946.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1671958226406" duration="88000" />
       <workItem from="1671958328539" duration="155000" />
       <workItem from="1671958626039" duration="150000" />
-      <workItem from="1671958800391" duration="5539000" />
+      <workItem from="1671958800391" duration="19648000" />
     </task>
     <servers />
   </component>
