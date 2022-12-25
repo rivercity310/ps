@@ -1,32 +1,40 @@
 package beginner.k_backtracking
 
-private val exp = ArrayDeque<Int>()
+private var n = 0
+private var maxVal = Int.MIN_VALUE
+private var minVal = Int.MAX_VALUE
+private lateinit var nums: IntArray
+private lateinit var ops: IntArray
 
-private fun solve(depth: Int, start: Int, arr: List<Int>, ops: MutableList<Int>) {
-    val size = arr.size + ops.size
-
-    if (depth == size) {
-        for (e in exp) print("$e ")
-        println()
+private fun dfs(depth: Int, result: Int) {
+    if (depth == n) {
+        maxVal = maxOf(maxVal, result)
+        minVal = minOf(minVal, result)
         return
     }
 
-    for (i in start until size) {
-        exp.add(arr[i])
-        if (ops[i] != 0) exp.add(ops[i])
-        solve(depth + 1, i + 1, arr, ops)
-        if (ops[i] != 0) {
-            exp.removeLast()
+    ops.forEachIndexed { i, op ->
+        if (op > 0) {
             ops[i]--
+
+            when (i) {
+                0 -> dfs(depth + 1, result + nums[depth])
+                1 -> dfs(depth + 1, result - nums[depth])
+                2 -> dfs(depth + 1, result * nums[depth])
+                3 -> dfs(depth + 1, result / nums[depth])
+            }
+
+            ops[i]++
         }
-        exp.removeLast()
     }
 }
 
 fun boj_14888() = with(System.`in`.bufferedReader()) {
-    val n = readLine().toInt()
-    val arr = readLine().split(" ").map { it.toInt() }
-    val ops = readLine().split(" ").map { it.toInt() }.toMutableList()
+    n = readLine().toInt()
+    nums = readLine().split(" ").map { it.toInt() }.toIntArray()
+    ops = readLine().split(" ").map { it.toInt() }.toIntArray()
 
-    solve(0, 0, arr, ops)
+    dfs(1, nums[0])
+    println(maxVal)
+    println(minVal)
 }

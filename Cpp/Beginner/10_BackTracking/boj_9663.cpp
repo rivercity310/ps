@@ -6,30 +6,26 @@
 using namespace std;
 
 static int N;
-static int vx[16], vy[16];
+static int ans;
+static int flag_a[16];
+static int flag_b[16 * 2];
+static int flag_c[16 * 2];
 
-static int solve(int y, int x) {
-    // 가지치기(back tracking)
-    for (int i = 0; i < y; i++) {
-        if (x == vx[i]) return 0;   // 세로 겹침
-        if (y == vy[i]) return 0;   // 가로 겹침
-        if (abs(x - vx[i]) == abs(y - vy[i])) return 0;  // 대각 겹침
+static void solve(int i) {
+    for (int j = 0; j < N; j++) {
+        if (!flag_a[j] && !flag_b[i + j] && !flag_c[i - j + N - 1]) {
+            if (i == N - 1) ans++;
+            else {
+                flag_a[j] = flag_b[i + j] = flag_c[i - j + N - 1] = 1;
+                solve(i + 1);
+                flag_a[j] = flag_b[i + j] = flag_c[i - j + N - 1] = 0;
+            }
+        }
     }
-
-    // 종료조건
-    if (y == N - 1) return 1;
-
-    // 말의 위치 기억
-    vy[y] = y, vx[y] = x;
-
-    int r = 0;
-    for (int i = 0; i < N; i++) r += solve(y + 1, i);
-    return r;
 }
 
 void boj_9663() {
     cin >> N;
-    int r = 0;
-    for (int i = 0; i < N; i++) r += solve(0, i);
-    cout << r;
+    solve(0);
+    cout << ans;
 }

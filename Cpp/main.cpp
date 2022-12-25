@@ -6,6 +6,7 @@
 
 // ----------------------------------------------------------------------------------
 
+#ifdef BEGINNER
 #define SORTING
 #define GREEDY
 #define BINARY_SEARCH
@@ -17,6 +18,7 @@
 #define DP
 #define OTHERS
 #define BACKTRACKING
+#endif
 
 // ----------------------------------------------------------------------------------
 
@@ -76,7 +78,6 @@ extern void boj_1504();
 
 #ifdef MST
 extern void boj_1956();
-
 #endif
 
 #ifdef TREE
@@ -85,7 +86,6 @@ extern void boj_9934();
 #endif
 
 #ifdef DIVIDE_AND_CONQUER
-
 extern void boj_1992();
 extern void boj_1629();
 extern void boj_1629_with_dp();
@@ -108,6 +108,9 @@ extern void boj_1850();
 
 #ifdef BACKTRACKING
 extern void boj_9663();
+extern void boj_14888();
+extern void boj_14889();
+extern void boj_2580();
 #endif
 
 #endif
@@ -141,5 +144,5 @@ extern void backend_ex1();
 #endif
 
 int main() {
-    boj_9663();
+    boj_2580();
 }
