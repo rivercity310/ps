@@ -93,6 +93,9 @@ extern void boj_1629_with_dp();
 
 #ifdef DP
 extern void boj_9184();
+extern void boj_11726();
+extern void boj_2133();
+extern void boj_14852();
 #endif
 
 #ifdef OTHERS
@@ -128,6 +131,8 @@ extern void boj_10986();
 extern void boj_10830();
 extern void boj_10830_with_dp();
 extern void boj_9370();
+extern void boj_11437();
+extern void boj_11438();
 #endif
 
 
@@ -144,5 +149,5 @@ extern void backend_ex1();
 #endif
 
 int main() {
-    boj_2580();
+    boj_14852();
 }

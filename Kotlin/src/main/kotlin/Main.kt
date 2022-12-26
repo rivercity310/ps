@@ -1,12 +1,12 @@
-import beginner.b_Greedy.*
-import beginner.g_Tree.*
-import beginner.c_BinarySearch.*
+import boj.beginner.b_Greedy.*
+import boj.beginner.g_Tree.*
+import boj.beginner.c_BinarySearch.*
 import programmers.devMatching2021.*
 import programmers.kakao_blind.*
-import beginner.i_DP.*
-import beginner.k_backtracking.*
-import intermediate.*
+import boj.beginner.i_DP.*
+import boj.beginner.k_backtracking.*
+import boj.intermediate.*
 
 fun main() {
-    boj_10610()
+    boj_11438()
 }
