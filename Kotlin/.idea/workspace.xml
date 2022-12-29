@@ -5,320 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0274e883-5d3b-4885-b6fa-9df1e2d4e8fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/09_DP/boj_11726.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/09_DP/boj_2133.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_11437.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_11438.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_2042.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/boj/Intermediate/boj_11437.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/boj/Intermediate/boj_11438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_11437.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_11438.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/BubbleSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/BubbleSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/CountSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/CountSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/Insertion_Shell_Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/Insertion_Shell_Sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/MergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/MergeSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/QuickSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/QuickSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/SelectionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/SelectionSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/boj_18870.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/boj_18870.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/boj_2108.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/boj_2108.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/01_Sorting/boj_24060.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/01_Sorting/boj_24060.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/02_Greedy/BigNumber.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/02_Greedy/BigNumber.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/02_Greedy/CardGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/02_Greedy/CardGame.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/02_Greedy/Exchange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/02_Greedy/Exchange.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/02_Greedy/UntilNumberOne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/02_Greedy/UntilNumberOne.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/02_Greedy/boj_13305.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/02_Greedy/boj_13305.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/02_Greedy/boj_1931.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/02_Greedy/boj_1931.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/Lower_and_Upper_bound.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/Lower_and_Upper_bound.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/binSearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/binSearch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/boj_1654.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/boj_1654.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/boj_2110.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/boj_2110.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/boj_2110_c.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/boj_2110_c.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/boj_2805.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/boj_2805.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/cuttingRiceCake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/cuttingRiceCake.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/03_BinarySearch/findPart.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/03_BinarySearch/findPart.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/boj_16928.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/boj_16928.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/boj_24445.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/boj_24445.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/boj_24479.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/boj_24479.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/boj_7562.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/boj_7562.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/boj_7569.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/boj_7569.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/boj_7576.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/boj_7576.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/04_GraphSearch/maze_escape.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/04_GraphSearch/maze_escape.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/05_ShortestPath/boj_13549.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/05_ShortestPath/boj_13549.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/05_ShortestPath/boj_1504.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/05_ShortestPath/boj_1504.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/05_ShortestPath/boj_1753.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/05_ShortestPath/boj_1753.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/05_ShortestPath/boj_1916.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/05_ShortestPath/boj_1916.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/05_ShortestPath/floyd_warshall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/05_ShortestPath/floyd_warshall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/05_ShortestPath/telegram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/05_ShortestPath/telegram.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/07_Tree/boj_11725.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/07_Tree/boj_11725.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/07_Tree/boj_9934.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/07_Tree/boj_9934.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/08_DivideAndConquer/boj_1629.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/08_DivideAndConquer/boj_1629.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/08_DivideAndConquer/boj_1629_with_dp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/08_DivideAndConquer/boj_1629_with_dp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/08_DivideAndConquer/boj_1992.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/08_DivideAndConquer/boj_1992.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/09_DP/boj_9184.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/09_DP/boj_9184.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_14888.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/10_BackTracking/boj_14888.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_14889.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/10_BackTracking/boj_14889.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_2580.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/10_BackTracking/boj_2580.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/10_BackTracking/boj_9663.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/10_BackTracking/boj_9663.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_1004.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_1004.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_1018.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_1018.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_1850.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_1850.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_2470.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_2470.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_2477.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_2477.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_2504.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_2504.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_2740.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_2740.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_3273.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_3273.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Beginner/Others/boj_9613.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Beginner/Others/boj_9613.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_10830.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_10830.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_10830_with_dp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_10830_with_dp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_10986.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_10986.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_1167.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_1167.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_1655.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_1655.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_1956.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_1956.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/Intermediate/boj_9370.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/boj/Intermediate/boj_9370.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-43b6eb59eb66a565e846.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-24T19-07-59-0051.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.cmake/api/v1/reply/target-Cpp-Debug-5e3954291da3c83df92f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/CMakeFiles/Cpp.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cpp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Cpp/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/Boj_18870.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/Boj_18870.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/Boj_2108.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/Boj_2108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/Boj_24060.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/Boj_24060.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/CountSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/Insertion_Shell_Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/Insertion_Shell_Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/A_Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/A_Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/B_Greedy/BigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/B_Greedy/BigNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/B_Greedy/Boj_13305.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/B_Greedy/Boj_13305.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/B_Greedy/Boj_1931.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/B_Greedy/Boj_1931.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/B_Greedy/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/B_Greedy/CardGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/B_Greedy/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/B_Greedy/Exchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/B_Greedy/UntilNumberOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/B_Greedy/UntilNumberOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/BinSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/Boj_1654.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/Boj_1654.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/Boj_2805.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/Boj_2805.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/CuttingRiceCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/CuttingRiceCake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/FindPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/FindPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/Lower_and_Upper_bound.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/Lower_and_Upper_bound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/C_BinarySearch/boj_2110.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/C_BinarySearch/boj_2110.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/D_GraphSearch/Maze_escape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/D_GraphSearch/Maze_escape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/D_GraphSearch/boj_24445.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/D_GraphSearch/boj_24445.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/D_GraphSearch/boj_24480.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/D_GraphSearch/boj_24480.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/E_ShortestPath/Floyd_Warshall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/E_ShortestPath/Floyd_Warshall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/E_ShortestPath/Telegram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/E_ShortestPath/Telegram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/E_ShortestPath/boj_13549.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/E_ShortestPath/boj_13549.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/E_ShortestPath/boj_1753.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/E_ShortestPath/boj_1753.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/E_ShortestPath/boj_1916.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/E_ShortestPath/boj_1916.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/g_Tree/Heapq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/g_Tree/Heapq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/g_Tree/boj_5052.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/g_Tree/boj_5052.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/g_Tree/boj_9934.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/g_Tree/boj_9934.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_14888.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_14888.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_14889.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_14889.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15649.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_15649.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15650.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_15650.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15651.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_15651.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_15652.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_15652.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_2580.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_2580.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_6603.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_6603.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Beginner/k_backtracking/boj_9663.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Beginner/k_backtracking/boj_9663.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Intermediate/boj_1655.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Intermediate/boj_1655.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Intermediate/boj_1956.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/boj/Intermediate/boj_1956.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/Boj_18870.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/Boj_2108.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/Boj_24060.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/CountSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/Insertion_Shell_Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/A_Sorting/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/BigNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/Boj_13305.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/Boj_1931.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/Boj_1931_2$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/Boj_1931_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/CardGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/Exchange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/B_Greedy/UntilNumberOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/BinSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/Boj_1654.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/Boj_2805.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/CuttingRiceCake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/FindPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/Lower_and_Upper_bound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/C_BinarySearch/boj_2110.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/D_GraphSearch/Maze_escape$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/D_GraphSearch/Maze_escape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/D_GraphSearch/boj_24445.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/D_GraphSearch/boj_24480.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/Floyd_Warshall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/Telegram$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/Telegram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/boj_13549$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/boj_13549.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/boj_1753$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/boj_1753.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/boj_1916$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/E_ShortestPath/boj_1916.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/Heapq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/boj_5052$Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/boj_5052$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/boj_5052.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/g_Tree/boj_9934.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_14888.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_14889.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_15649.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_15650.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_15651.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_15652.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_2580.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_6603.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Beginner/k_backtracking/boj_9663.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Intermediate/boj_1655.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/out/production/software_test/Intermediate/boj_1956.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_1715.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_11053.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_12865.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/a_Sorting/Boj_24060Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/a_Sorting/Quick_sort2Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/a_Sorting/Quick_sortKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_1026Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_10610Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_1439Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_16953Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_1789Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_1946Kt$boj_1946$lambda$4$lambda$3$$inlined$sortBy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_1946Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/b_Greedy/Boj_2217Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_12015Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_1654Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_2110Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/c_BinarySearch/Boj_2805Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_2178Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_24445Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_7562Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Boj_7576Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/d_GraphSearch/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Boj_13549Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Boj_1753Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Boj_1916Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/e_ShortestPath/node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/f_MST/DisjointSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/f_MST/KruskalKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/f_MST/ND.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/Boj_1991Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/Boj_5052Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/HeapKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/Heapq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/g_Tree/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1629Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1629_with_dpKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1780Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_1992Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_2630Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/h_DivideAndConquer/Boj_2740Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_11051Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1904Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1912Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_1932Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_2156Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_9184Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/i_DP/Boj_9461Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_1004Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_1018Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_2477Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_2504Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Boj_3053Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/j_Others/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_14888Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_14889Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_15649Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_15650Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_15651Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_15652Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_2580Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_6603Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_9663Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/beginner/k_backtracking/Boj_9663_2Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_10830Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_10830_with_dpKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_10986Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_1167Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_1766Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/intermediate/Boj_9370Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/boj/beginner/i_DP/Boj_1912Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/boj/beginner/i_DP/Boj_1912Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kotlin/boj/intermediate/Boj_11438Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/boj/intermediate/Boj_11438Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/a_Sorting/boj_24060.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/a_Sorting/boj_24060.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/a_Sorting/quick_sort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/a_Sorting/quick_sort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/a_Sorting/quick_sort2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/a_Sorting/quick_sort2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1026.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_1026.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_10610.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_10610.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1439.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_1439.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_16953.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_16953.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1789.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_1789.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_1946.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_1946.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/b_Greedy/boj_2217.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/b_Greedy/boj_2217.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/c_BinarySearch/boj_12015.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/c_BinarySearch/boj_12015.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/c_BinarySearch/boj_1654.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/c_BinarySearch/boj_1654.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/c_BinarySearch/boj_2110.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/c_BinarySearch/boj_2110.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/c_BinarySearch/boj_2805.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/c_BinarySearch/boj_2805.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/d_GraphSearch/boj_2178.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/d_GraphSearch/boj_2178.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/d_GraphSearch/boj_24445.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/d_GraphSearch/boj_24445.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/d_GraphSearch/boj_7562.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/d_GraphSearch/boj_7562.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/d_GraphSearch/boj_7576.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/d_GraphSearch/boj_7576.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/e_ShortestPath/boj_13549.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/e_ShortestPath/boj_13549.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/e_ShortestPath/boj_1753.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/e_ShortestPath/boj_1753.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/e_ShortestPath/boj_1916.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/e_ShortestPath/boj_1916.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/f_MST/kruskal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/f_MST/kruskal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/boj_1991.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/g_Tree/boj_1991.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/boj_5052.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/g_Tree/boj_5052.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/boj_9934.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/g_Tree/boj_9934.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/g_Tree/heap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/g_Tree/heap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/h_DivideAndConquer/boj_1629.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/h_DivideAndConquer/boj_1629.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/h_DivideAndConquer/boj_1629_with_dp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/h_DivideAndConquer/boj_1629_with_dp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/h_DivideAndConquer/boj_1780.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/h_DivideAndConquer/boj_1780.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/h_DivideAndConquer/boj_1992.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/h_DivideAndConquer/boj_1992.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/h_DivideAndConquer/boj_2630.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/h_DivideAndConquer/boj_2630.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_11051.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_11051.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1904.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_1904.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1912.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_1912.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_1932.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_1932.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_2156.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_2156.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_9184.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_9184.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/i_DP/boj_9461.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_9461.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/j_Others/boj_1004.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/j_Others/boj_1004.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/j_Others/boj_1018.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/j_Others/boj_1018.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/j_Others/boj_2477.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/j_Others/boj_2477.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/j_Others/boj_2504.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/j_Others/boj_2504.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/j_Others/boj_2740.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/j_Others/boj_2740.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/j_Others/boj_3053.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/j_Others/boj_3053.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14888.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_14888.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_14889.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_14889.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15649.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_15649.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15650.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_15650.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15651.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_15651.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_15652.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_15652.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_2580.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_2580.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_6603.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_6603.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_9663.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_9663.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/beginner/k_backtracking/boj_9663_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/k_backtracking/boj_9663_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_10830.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_10830.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_10830_with_dp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_10830_with_dp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_10986.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_10986.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_1167.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_1167.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_1766.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_1766.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/intermediate/boj_9370.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/intermediate/boj_9370.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_1912.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/boj/beginner/i_DP/boj_1912.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,21 +45,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/seungsu/workspace/software_test/Kotlin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/seungsu/workspace/Team3/build.gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -388,6 +98,8 @@
       <workItem from="1671958800391" duration="20092000" />
       <workItem from="1672052294572" duration="618000" />
       <workItem from="1672078384231" duration="4357000" />
+      <workItem from="1672138519525" duration="19000" />
+      <workItem from="1672310219268" duration="13539000" />
     </task>
     <servers />
   </component>
