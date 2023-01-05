@@ -74,4 +74,4 @@ add_executable(Cpp
         boj/Beginner/10_BackTracking/boj_14888.cpp
         boj/Beginner/10_BackTracking/boj_14889.cpp
         boj/Beginner/10_BackTracking/boj_2580.cpp
-        boj/Intermediate/boj_11437.cpp boj/Intermediate/boj_11438.cpp boj/Intermediate/boj_2042.cpp boj/Beginner/09_DP/boj_11726.cpp boj/Beginner/09_DP/boj_2133.cpp boj/Beginner/09_DP/boj_14852.cpp)
+        boj/Intermediate/boj_11437.cpp boj/Intermediate/boj_11438.cpp boj/Intermediate/boj_2042.cpp boj/Beginner/09_DP/boj_11726.cpp boj/Beginner/09_DP/boj_2133.cpp boj/Beginner/09_DP/boj_14852.cpp boj/Beginner/09_DP/boj_2293.cpp boj/Beginner/09_DP/boj_2294.cpp)

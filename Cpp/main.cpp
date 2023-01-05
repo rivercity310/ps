@@ -96,6 +96,7 @@ extern void boj_9184();
 extern void boj_11726();
 extern void boj_2133();
 extern void boj_14852();
+extern void boj_2294();
 #endif
 
 #ifdef OTHERS
@@ -149,5 +150,5 @@ extern void backend_ex1();
 #endif
 
 int main() {
-    boj_14852();
+    boj_2294();
 }
