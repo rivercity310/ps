@@ -1,8 +1,10 @@
 // ----------------------------------------------------------------------------------
 
-#define BEGINNER
-#define INTERMEDIATE
-#define PROGRAMMERS
+// #define BEGINNER
+// #define INTERMEDIATE
+// #define PROGRAMMERS
+#define SAMSUNG
+#define WANTED
 
 // ----------------------------------------------------------------------------------
 
@@ -149,6 +151,22 @@ extern void bl2022_ex1();
 extern void backend_ex1();
 #endif
 
+#ifdef WANTED
+extern void ex1();
+extern void ex2();
+extern void ex3();
+
+extern void v1();
+extern void v2();
+extern void v3();
+#endif
+
+// --------------------------------------------------------------------------------------
+
+#ifdef SAMSUNG
+extern void solution1();
+#endif
+
 int main() {
-    boj_2294();
+    v1();
 }
