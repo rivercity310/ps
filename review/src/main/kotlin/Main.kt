@@ -1,5 +1,6 @@
 import backtracking.*
+import dp.*
 
 fun main(args: Array<String>) {
-    boj_15652()
+    boj_2156()
 }
