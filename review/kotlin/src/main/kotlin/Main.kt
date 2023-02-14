@@ -2,7 +2,8 @@ import graphsearch.*
 import dp.*
 import backtracking.*
 import binarysearch.*
+import soma.*
 
 fun main(args: Array<String>) {
-    boj_11053()
+    boj_1167()
 }
