@@ -3,7 +3,8 @@ import dp.*
 import backtracking.*
 import binarysearch.*
 import soma.*
+import soma.programmers.*
 
 fun main(args: Array<String>) {
-    boj_1167()
+    PMR42578().main()
 }
