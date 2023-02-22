@@ -6,5 +6,5 @@ import soma.*
 import soma.programmers.*
 
 fun main(args: Array<String>) {
-    PMR42578().main()
+    PMR42862().main()
 }
