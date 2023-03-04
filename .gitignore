@@ -1,17 +1,21 @@
-Cpp/.idea/
+software_test.iml
+.idea
 
-Java/.idea/
-Java/out/
+v1/Cpp/.idea/
 
-Kotlin/.idea/
-Kotlin/out/
+v1/Java/.idea/
+v1/Java/out/
 
-Python/.idea/
+v1/Kotlin/.idea/
+v1/Kotlin/out/
 
-review/kotlin/.idea/
-review/kotlin/out/
-review/python/.idea/
-review/java/.gradle
-review/java/.idea
-review/java/out
+v1/Python/.idea/
+
+v1/review/kotlin/.idea/
+v1/review/kotlin/out/
+v1/review/python/.idea/
+v1/review/java/.gradle
+v1/review/java/.idea
+v1/review/java/out/
+v1/review/java/jv.iml
 

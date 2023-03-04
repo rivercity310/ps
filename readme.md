@@ -1,23 +1,14 @@
-## SWEA & 기업 코테 & 백준 & 프로그래머스 문제풀이
-
----
-
-### 소스코드 보기 (Click)
-[<img src="https://img.shields.io/badge/C++-123456?style=flat&logo=Cplusplus&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Cpp) [<img src="https://img.shields.io/badge/Java-red?style=flat&logo=OpenJDK&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Java) [<img src="https://img.shields.io/badge/Python-blue?style=flat&logo=Python&logoColor=white"/>](https://github.com/rivercity310/Samsung_Software_Test/tree/main/Python) [<img src="https://img.shields.io/badge/Kotlin-3b5998?style=flat&logo=Kotlin&logoColor=white"/>](https://github.com/rivercity310/software_test/tree/main/Kotlin/src/main/kotlin)
-
----
+## 기업 코테 & 백준 & 프로그래머스 문제풀이 모음집
 
 ## Comments
 
-
 +) 2022/11/19 <br/>
-Python의 타입 힌트와 함수형 구조를 활용하자 
-(https://github.com/rivercity310/Samsung_Software_Test/blob/main/Python/beginner/01_Sorting/boj_2108.py)
+[Python의 타입 힌트와 함수형 구조를 활용](https://github.com/rivercity310/Samsung_Software_Test/blob/main/Python/beginner/01_Sorting/boj_2108.py)
 
 <br/>
 
 +) 2022/12/9 <br/>
-C++17의 기능을 활용할 것 (https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
+[C++17의 기능을 활용](https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
 
 <br/>
 
@@ -40,12 +31,12 @@ public class blind2021_ex1 {
         private static class KakaoID {
             private String s;
             KakaoID(String s) { this.s = s; }
-            private KakaoID replaceToLowerCase() { /*...*/ return this; }
-            private KakaoID filter() { /*...*/ return this; }
-            private KakaoID toSingleDot() { /*...*/ return this; }
-            private KakaoID emptyCheck() { /*...*/ return this; }
-            private KakaoID rangeCheck() { /*...*/ return this; }
-            private String getResult() { return this.s; }
+            public KakaoID replaceToLowerCase() { /*...*/ return this; }
+            public KakaoID filter() { /*...*/ return this; }
+            public KakaoID toSingleDot() { /*...*/ return this; }
+            public KakaoID emptyCheck() { /*...*/ return this; }
+            public KakaoID rangeCheck() { /*...*/ return this; }
+            public String getResult() { return this.s; }
         }
     }
 }
@@ -212,10 +203,6 @@ public class blind2021_ex1 {
 ---
 
 ## [ Programmers 기업 기출 ]
-나의 풀이와 다른 사람의 풀이를 비교, 분석해보기 <br/>
-특히 Kotlin을 통한 함수형 풀이에 대해 공부하자
-
-<br/>
 
 #### KAKAO 2018 BLIND
 - [다트 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17682)
@@ -230,20 +217,14 @@ public class blind2021_ex1 {
 
 
 #### KAKAO 2022 TECH INTERNSHIP
-- [성격 유형 검사하기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+- [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
 
 
 #### KAKAO 2022 BLIND RECRUITMENT
-- [신고 결과 받기: Lv.1](https://school.programmers.co.kr/learn/courses/30/lessons/92334): C++17의 구조 분해 선언 활용
+- [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334): C++17의 구조 분해 선언 활용
 
 
 #### Dev-Matching 2021
 - [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
-
----
-
-## [ Expert ] 
-- 추후 작성 예정
-
 
 ---
