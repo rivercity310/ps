@@ -2,87 +2,30 @@
 
 ## Comments
 
-+) 2022/11/19 <br/>
-[Python의 타입 힌트와 함수형 구조를 활용](https://github.com/rivercity310/Samsung_Software_Test/blob/main/Python/beginner/01_Sorting/boj_2108.py)
-
-<br/>
-
-+) 2022/12/9 <br/>
-[C++17의 기능을 활용](https://github.com/tvaneerd/cpp17_in_TTs/blob/main/ALL_IN_ONE.md) <br/>
-
-<br/>
-
-+) 2022/12/12 <br/>
-Java 코드 구조 참고
-
-```java
-public class blind2021_ex1 {
-    private static class Solution {
-        public String solution(String new_id) {
-            return new KakaoID(new_id)
-                    .replaceToLowerCase()
-                    .filter()
-                    .toSingleDot()
-                    .emptyCheck()
-                    .rangeCheck()
-                    .getResult();
-        }
-
-        private static class KakaoID {
-            private String s;
-            KakaoID(String s) { this.s = s; }
-            public KakaoID replaceToLowerCase() { /*...*/ return this; }
-            public KakaoID filter() { /*...*/ return this; }
-            public KakaoID toSingleDot() { /*...*/ return this; }
-            public KakaoID emptyCheck() { /*...*/ return this; }
-            public KakaoID rangeCheck() { /*...*/ return this; }
-            public String getResult() { return this.s; }
-        }
-    }
-}
-```
-
 ---
 
-<details>
-    <summary><h2>Beginner</h2></summary>
-
 ### 1. Sorting
-- 버블정렬
-- 선택정렬 & 응용문제
-- 삽입정렬과 셸정렬(삽입정렬의 응용)
-- 병합정렬과 퀵정렬
-- 계수정렬
 - [알고리즘 수업 - 병합 정렬 1](https://www.acmicpc.net/problem/24060)
 - [좌표압축](https://www.acmicpc.net/problem/18870)
 - [통계학](https://www.acmicpc.net/problem/2108)
 
-<br/><br/>
+<br/>
 
 ### 2. Greedy
-- 거스름돈 문제
-- 카드게임
-- 큰 수의 법칙
-- 1이 될 때까지
 - [회의실 배정](https://www.acmicpc.net/problem/1931)
 - [주유소](https://www.acmicpc.net/problem/13305)
 
-<br/><br/>
+<br/>
 
 ### 3. Binary Search
-- 재귀 or 반복으로 구현된 이진탐색
-- lower bound & upper bound
-- 부품 찾기
-- 떡볶이 떡 자르기
 - [랜선 자르기](https://www.acmicpc.net/problem/1654)
 - [나무 자르기](https://www.acmicpc.net/problem/2805)
 - [공유기 설치](https://www.acmicpc.net/problem/2110)
 - [K번째 수](https://www.acmicpc.net/problem/1300)
 
-<br/><br/>
+<br/>
 
 ### 4. Graph Search (BFS / DFS)
-- 미로탈출 (BFS를 이용한 최단거리 사방탐색 -> 가중치가 1인 경우)
 - [미로탐색](https://www.acmicpc.net/problem/2178)
 - [알고리즘 수업 - 너비 우선 탐색 2](https://www.acmicpc.net/problem/24445)
 - [나이트의 이동](https://www.acmicpc.net/problem/7562)
@@ -90,22 +33,20 @@ public class blind2021_ex1 {
 - [토마토 3차원](https://www.acmicpc.net/problem/7569)
 - [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)
 
-<br/><br/>
+<br/>
 
 ### 5. Shortest Path
-- 전보 (다익스트라 기본문제)
-- 간단한 플로이드 워셜 알고리즘 구현
 - [최소비용 구하기](https://www.acmicpc.net/problem/1916)
 - [최단경로](https://www.acmicpc.net/problem/1753)
 - [숨바꼭질3](https://www.acmicpc.net/problem/13549)
 - [특정한 최단 경로](https://www.acmicpc.net/problem/1504)
 
-<br/><br/>
+<br/>
 
 ### 6. Minimum Spanning Tree
 - Kruskal 알고리즘으로 MST 구현
 
-<br/><br/>
+<br/>
 
 ### 7. Tree
 - [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)
@@ -114,7 +55,7 @@ public class blind2021_ex1 {
 - [나무 탈출](https://www.acmicpc.net/problem/15900)
 - [전화번호 목록](https://www.acmicpc.net/problem/5052)
 
-<br/><br/>
+<br/>
 
 ### 8. Divide & Conquer
 - [쿼드트리](https://www.acmicpc.net/problem/1992)
@@ -122,7 +63,7 @@ public class blind2021_ex1 {
 - [종이의 개수](https://www.acmicpc.net/problem/1780)
 - [곱셈](https://www.acmicpc.net/problem/1629)
 
-<br/><br/>
+<br/>
 
 ### 9. Dynamic Programming
 - [신나는 함수 실행](https://www.acmicpc.net/problem/9184)
@@ -133,7 +74,7 @@ public class blind2021_ex1 {
 - [정수 삼각형](https://www.acmicpc.net/problem/1932)
 - [이항 계수2](https://www.acmicpc.net/problem/11051)
 
-<br/><br/>
+<br/>
 
 ### 10. Back-Tracking
 - [N과 M (1, 2, 3)](https://www.acmicpc.net/problem/15651)
@@ -142,7 +83,7 @@ public class blind2021_ex1 {
 - [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)
 - [스타트와 링크](https://www.acmicpc.net/problem/14889)
 
-<br/><br/>
+<br/>
 
 ### Others
 - [행렬 곱셈](https://www.acmicpc.net/problem/2740)
@@ -152,13 +93,7 @@ public class blind2021_ex1 {
 - [어린 왕자](https://www.acmicpc.net/problem/1004)
 - [GCD 합](https://www.acmicpc.net/problem/9613)
 
-</details>
-
-
 --- 
-
-<details>
-<summary><h2>Intermediate</h2></summary>
 
 #### [가운데를 말해요](https://www.acmicpc.net/problem/1655)
 - 힙을 이용해서 매번 들어오는 데이터에 대한 중앙값을 구하는 문제
@@ -195,36 +130,7 @@ public class blind2021_ex1 {
 
 <br/>
 
-#### [문제집](https://www.acmicpc.net/problem/1766) *
+#### [문제집](https://www.acmicpc.net/problem/1766)
 - 위상정렬에 특정 조건을 추가한 문제
-</details>
-
-
----
-
-## [ Programmers 기업 기출 ]
-
-#### KAKAO 2018 BLIND
-- [다트 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17682)
-- [비밀 지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
-
-#### KAKAO 2019 BLIND
-- [실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889?language=kotlin)
-
-
-#### KAKAO 2021 BLIND
-- [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410): Regex 활용
-
-
-#### KAKAO 2022 TECH INTERNSHIP
-- [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
-
-
-#### KAKAO 2022 BLIND RECRUITMENT
-- [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334): C++17의 구조 분해 선언 활용
-
-
-#### Dev-Matching 2021
-- [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 
 ---
