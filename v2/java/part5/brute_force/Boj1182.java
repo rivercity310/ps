@@ -7,20 +7,20 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Boj1182 {
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static int N, S, ans;
-    static int[] nums;
+    static int[] arr;
 
     public static void main(String[] args) throws IOException {
         st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         S = Integer.parseInt(st.nextToken());
-        nums = Arrays.stream(br.readLine().split("\\s")).mapToInt(Integer::parseInt).toArray();
+        arr = Arrays.stream(br.readLine().split("\\s")).mapToInt(Integer::parseInt).toArray();
 
         solve(0, 0);
 
-        if (S == 0) ans--;
+        if (S == 0) ans -= 1;
         System.out.println(ans);
     }
 
@@ -30,7 +30,7 @@ public class Boj1182 {
             return;
         }
 
-        solve(k + 1, sum + nums[k]);    // k번째 원소 포함
-        solve(k + 1, sum);                   // k번째 원소 건너뜀
+        solve(k + 1, sum + arr[k]);
+        solve(k + 1, sum);
     }
 }

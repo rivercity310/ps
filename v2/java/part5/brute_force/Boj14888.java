@@ -44,7 +44,6 @@ public class Boj14888 {
         else if (op == 1) sum -= num;
         else if (op == 2) sum *= num;
         else sum /= num;
-
         return sum;
     }
 }
