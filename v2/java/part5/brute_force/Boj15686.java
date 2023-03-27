@@ -14,14 +14,12 @@ public class Boj15686 {
     static StringTokenizer st;
     static int N, M;
     static int ans = Integer.MAX_VALUE;
-    static int[][] city;
     static boolean[] selected;
 
     public static void main(String[] args) throws IOException {
         st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        city = new int[N][N];
 
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
@@ -29,7 +27,6 @@ public class Boj15686 {
                 int t = Integer.parseInt(st.nextToken());
                 if (t == 1) home.add(new int[] { i, j });
                 else if (t == 2) chicken.add(new int[] { i, j });
-                city[i][j] = t;
             }
         }
 
