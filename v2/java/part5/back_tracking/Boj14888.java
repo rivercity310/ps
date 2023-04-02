@@ -1,4 +1,4 @@
-package part5.brute_force;
+package part5.back_tracking;
 
 import java.io.BufferedReader;
 import java.io.IOException;
