@@ -29,7 +29,7 @@ public class Boj15970 {
 
         for (int color : dots.keySet()) {
             List<Integer> lst = dots.get(color);
-            lst.sort((a, b) -> a - b);
+            lst.sort(Comparator.comparingInt(a -> a));
 
             for (int i = 0; i < lst.size(); i++) {
                 int now = lst.get(i);

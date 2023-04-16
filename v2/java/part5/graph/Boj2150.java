@@ -1,4 +1,4 @@
-package part5.scc;
+package part5.graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;
