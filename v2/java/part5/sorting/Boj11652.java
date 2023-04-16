@@ -9,13 +9,14 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Boj11652 {
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static BufferedReader br;
     static int N;
     static Map<Long, Integer> m;
 
     public static void main(String[] args) throws IOException {
-        N = Integer.parseInt(br.readLine());
+        br = new BufferedReader(new InputStreamReader(System.in));
         m = new TreeMap<>();
+        N = Integer.parseInt(br.readLine());
 
         for (int i = 0; i < N; i++) {
             long k = Long.parseLong(br.readLine());
