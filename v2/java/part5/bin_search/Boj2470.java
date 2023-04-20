@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Boj2470 {
     static BufferedReader br;
     static StringTokenizer st;
-    static int N;
+    static int N, tmp, v1, v2;
     static int[] arr;
 
     public static void main(String[] args) throws IOException {
@@ -23,28 +23,23 @@ public class Boj2470 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
+        tmp = Integer.MAX_VALUE;
         Arrays.sort(arr);
 
-        int tmp = Integer.MAX_VALUE;
-        int v1 = 0, v2 = 0;
+        int start = 0;
+        int end = N - 1;
 
-        for (int i = 0; i < N - 1; i++) {
-            int start = i + 1;
-            int end = N - 1;
+        while (start < end) {
+            int sum = arr[start] + arr[end];
 
-            while (start <= end) {
-                int mid = (start + end) / 2;
-                int sum = arr[i] + arr[mid];
-
-                if (Math.abs(sum) < tmp) {
-                    tmp = Math.abs(sum);
-                    v1 = i;
-                    v2 = mid;
-                }
-
-                if (sum < 0) start = mid + 1;
-                else end = mid - 1;
+            if (tmp > Math.abs(sum)) {
+                tmp = Math.abs(sum);
+                v1 = start;
+                v2 = end;
             }
+
+            if (sum < 0) start++;
+            else end--;
         }
 
         System.out.println(arr[v1] + " " + arr[v2]);
