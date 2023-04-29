@@ -21,8 +21,7 @@ public class Pro92341 {
             String inTime = m.get(carNum);
             int remain = getRemainingMins(inTime, time);
 
-            if (ans.containsKey(carNum)) ans.put(carNum, ans.get(carNum) + remain);
-            else ans.put(carNum, remain);
+            ans.put(carNum, ans.getOrDefault(carNum, 0) + remain);
             m.remove(carNum);
         }
 
@@ -30,9 +29,7 @@ public class Pro92341 {
         for (String carNum : m.keySet()) {
             String inTime = m.get(carNum);
             int remain = getRemainingMins(inTime, "23:59");
-
-            if (ans.containsKey(carNum)) ans.put(carNum, ans.get(carNum) + remain);
-            else ans.put(carNum, remain);
+            ans.put(carNum, ans.getOrDefault(carNum, 0) + remain);
         }
 
         PriorityQueue<String[]> pq = new PriorityQueue<>((s1, s2) -> s1[0].compareTo(s2[0]));
@@ -49,14 +46,12 @@ public class Pro92341 {
             if (k <= fees[0]) answer[idx] = fees[1];
             else {
                 int total = fees[1];
+                int r;
 
-                if ((k - fees[0]) % fees[2] != 0) {
-                    int r = ((k - fees[0]) / fees[2]) + 1;
-                    total += r * fees[3];
-                } else {
-                    int r = (k - fees[0]) / fees[2];
-                    total += r * fees[3];
-                }
+                if ((k - fees[0]) % fees[2] != 0) r = ((k - fees[0]) / fees[2]) + 1;
+                else r = (k - fees[0]) / fees[2];
+
+                total += r * fees[3];
                 answer[idx] = total;
             }
 
