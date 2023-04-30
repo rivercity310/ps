@@ -35,17 +35,17 @@ public class Boj2805 {
         int ans = 0;
 
         while (bottom <= top) {
-            int height = (bottom + top) / 2;
+            int mid = (bottom + top) / 2;
             long get = 0;
 
-            for (int i = 0; i < N; i++) {
-                if (arr[i] > height) get += arr[i] - height;
-            }
+            for (int j : arr)
+                if (j > mid)
+                    get += j - mid;
 
-            if (M > get) top = height - 1;
+            if (M > get) top = mid - 1;
             else {
-                ans = Math.max(ans, height);
-                bottom = height + 1;
+                ans = mid;
+                bottom = mid + 1;
             }
         }
 

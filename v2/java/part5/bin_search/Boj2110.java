@@ -26,17 +26,17 @@ public class Boj2110 {
     }
 
     static int solve() {
-        int min = 1;
-        int max = home[N - 1] - home[0] + 1;
+        int left = 1;
+        int right = home[N - 1] - home[0] + 1;
 
-        while (min < max) {
-            int mid = (min + max) / 2;
+        while (left < right) {
+            int mid = (left + right) / 2;
             int router = install(mid);
-            if (router < C) max = mid;
-            else min = mid + 1;
+            if (C > router) right = mid;
+            else left = mid + 1;
         }
 
-        return min - 1;
+        return left - 1;
     }
 
     static int install(int mid) {
@@ -44,10 +44,9 @@ public class Boj2110 {
         int last = home[0];
 
         for (int i = 1; i < N; i++) {
-            int now = home[i];
-            if (now >= last + mid) {
+            if (home[i] >= last + mid) {
                 router++;
-                last = now;
+                last = home[i];
             }
         }
 
