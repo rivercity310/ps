@@ -11,8 +11,7 @@ class Pro68936 {
 
     void solve(int[][] arr, int rs, int cs, int n) {
         if (chk(arr, rs, cs, n)) {
-            if (arr[rs][cs] == 0) answer[0]++;
-            else answer[1]++;
+            answer[arr[rs][cs]]++;
             return;
         }
         
