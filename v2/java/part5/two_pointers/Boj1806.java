@@ -3,53 +3,44 @@ package part5.two_pointers;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Boj1806 {
     static BufferedReader br;
     static StringTokenizer st;
     static int N, S;
-    static int[] arr, prefix_sum;
+    static int[] arr;
 
     public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
         st = new StringTokenizer(br.readLine());
+
         N = Integer.parseInt(st.nextToken());
         S = Integer.parseInt(st.nextToken());
+        arr = Arrays.stream(br.readLine().split("\\s"))
+                .mapToInt(Integer::parseInt)
+                .toArray();
 
-        st = new StringTokenizer(br.readLine());
-        arr = new int[N];
-        prefix_sum = new int[N + 1];
-
-        for (int i = 0; i < N; i++)
-            arr[i] = Integer.parseInt(st.nextToken());
-
-        for (int i = 1; i <= N; i++) {
-            prefix_sum[i] = prefix_sum[i - 1] + arr[i - 1];
-        }
-
-        System.out.println(solve());
+        solve();
     }
 
-    static int solve() {
+    static void solve() {
         int left = 0;
-        int right = left + 1;
-        int len = Integer.MAX_VALUE;
+        int right = 0;
+        int sum = 0;
+        int ans = Integer.MAX_VALUE;
 
-        while (right <= N && left <= right) {
-            if (left == right) {
-                if (prefix_sum[left] >= S) return 1;
-                else right++;
-            } else {
-                int s = prefix_sum[right] - prefix_sum[left];
-                if (s < S) right++;
-                else {
-                    len = Math.min(len, right - left);
-                    left++;
-                }
+        while (true) {
+            while (sum >= S) {
+                ans = Math.min(ans, right - left);
+                sum -= arr[left++];
             }
+
+            if (right == N) break;
+            sum += arr[right++];
         }
 
-        return len == Integer.MAX_VALUE ? 0 : len;
+        System.out.println(ans == Integer.MAX_VALUE ? 0 : ans);
     }
 }
