@@ -43,12 +43,7 @@ class Pro72411 {
         }
 
         Collections.sort(lst);
-        String[] answer = new String[lst.size()];
-
-        for (int i = 0; i < answer.length; i++)
-            answer[i] = lst.get(i);
-
-        return answer;
+        return lst.toArray(new String[0]);
     }
 
     void tracking(String order, char[] tmp, int slice, int start, int depth) {
