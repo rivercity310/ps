@@ -22,15 +22,10 @@ public class Boj1074 {
     }
 
     static long solve(int n, int r, int c) {
-        if (n == 1)
-            return 0;
-        if (r < n / 2 && c < n / 2)
-            return solve(n / 2, r, c);
-        else if (r < n / 2 && c >= n / 2)
-            return (long) n * n / 4 + solve(n / 2, r, c - (n / 2));
-        else if (r >= n / 2 && c < n / 2)
-            return (long) n * n / 2 + solve(n / 2, r - (n / 2), c);
-        else
-            return 3L * n * n / 4 + solve(n / 2, r - (n / 2), c - (n / 2));
+        if (n == 1) return 0;
+        if (r < n / 2 && c < n / 2) return solve(n / 2, r, c);
+        if (r < n / 2 && c >= n / 2) return (long) n * n / 4 + solve(n / 2, r, c - (n / 2));
+        if (r >= n / 2 && c < n / 2) return (long) n * n / 2 + solve(n / 2, r - (n / 2), c);
+        return 3L * n * n / 4 + solve(n / 2, r - (n / 2), c - (n / 2));
     }
 }
