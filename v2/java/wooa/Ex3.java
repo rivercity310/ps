@@ -71,7 +71,6 @@ public class Ex3 {
 
                 if (map[tx][ty] == 'M') mine++;
                 else q.add(new int[] { tx, ty });
-                visited[tx][ty] = true;
             }
 
             // 지뢰가 주변에 있으면 개수만 표시
@@ -81,6 +80,7 @@ public class Ex3 {
                 while (!q.isEmpty()) {
                     int[] tp = q.poll();
                     map[tp[0]][tp[1]] = 'B';
+                    visited[tp[0]][tp[1]] = true;
                     dfs(tp[0], tp[1]);
                 }
             }
