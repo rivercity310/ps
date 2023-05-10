@@ -47,7 +47,7 @@ public class Ex3 {
         visited[x][y] = true;
         map[x][y] = 'B';
 
-        int[][] points = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1},
+        int[][] points = { {-1, -1}, {-1, 0}, {-1, 1}, {0, -1},
                 {0, 1}, {1, -1}, {1, 0}, {1, 1} };
 
         while (!stk.isEmpty()) {
@@ -61,14 +61,8 @@ public class Ex3 {
                 int tx = nx + point[0];
                 int ty = ny + point[1];
 
-                if (tx < 0 || ty < 0 || tx >= map.length || ty >= map[0].length) {
-                    continue;
-                }
-
-                if (visited[tx][ty]) {
-                    continue;
-                }
-
+                if (tx < 0 || ty < 0 || tx >= map.length || ty >= map[0].length) continue;
+                if (visited[tx][ty]) continue;
                 if (map[tx][ty] == 'M') mine++;
                 else q.add(new int[] { tx, ty });
             }
@@ -89,20 +83,13 @@ public class Ex3 {
 
     static String[] buildBoard(char[][] map) {
         String[] board = new String[map.length];
-
-        for (int i = 0; i < board.length; i++) {
-            board[i] = new String(map[i]);
-        }
-
+        for (int i = 0; i < board.length; i++) board[i] = new String(map[i]);
         return board;
     }
 
     public static void main(String[] args) {
         String[] board = { "EEEME", "EEEEE", "EEMEE", "EEEEE", "MEEEE" };
         String[] ans = solution(board, 4, 4);
-
-        for (int i = 0; i < ans.length; i++) {
-            System.out.println(ans[i]);
-        }
+        for (String an : ans) System.out.println(an);
     }
 }
