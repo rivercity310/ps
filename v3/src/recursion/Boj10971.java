@@ -13,9 +13,9 @@ public class Boj10971 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = Integer.parseInt(br.readLine());
+        ans = Integer.MAX_VALUE;
         arr = new int[N][N];
         visited = new boolean[N];
-        ans = Integer.MAX_VALUE;
 
         for (int i = 0; i < N; i++) {
             arr[i] = Arrays.stream(br.readLine().split(" "))
@@ -26,20 +26,19 @@ public class Boj10971 {
         for (int i = 0; i < N; i++) {
             solve(i, i, 0, 0);
         }
-
         System.out.println(ans);
     }
 
-    private static void solve(int start, int node, int sum, int depth) {
-        if (depth == N && start == node) {
-            ans = Math.min(ans, sum);
+    private static void solve(int start, int now, int depth, int sum) {
+        if (depth == N) {
+            if (start == now) ans = Math.min(sum, ans);
             return;
         }
 
         for (int i = 0; i < N; i++) {
-            if (!visited[i] && arr[node][i] > 0) {
+            if (!visited[i] && arr[now][i] > 0) {
                 visited[i] = true;
-                solve(start, i, sum + arr[node][i], depth + 1);
+                solve(start, i, depth + 1, sum + arr[now][i]);
                 visited[i] = false;
             }
         }

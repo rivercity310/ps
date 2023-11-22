@@ -12,74 +12,50 @@ public class Boj14267 {
     static StringTokenizer st;
     static int N, M;
     static List<Integer>[] grp;
-    static int[] parent, size;
+    static int[] comp, boss;
 
-    private static void input() throws IOException {
+    public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
         st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
 
-        parent = new int[N + 1];
-        parent[1] = -1;
-        size = new int[N + 1];
-        grp = new ArrayList[N + 1];
-
-        for (int i = 0; i <= N; i++)
-            grp[i] = new ArrayList<>();
-
+        boss = new int[N + 1];
+        comp = new int[N + 1];
+        grp = new List[N + 1];
         st = new StringTokenizer(br.readLine());
-        for (int i = 1; i <= N; i++) {
-            int sup = Integer.parseInt(st.nextToken());
-            if (sup == -1) continue;
-            grp[sup].add(i);
-            grp[i].add(sup);
-        }
-    }
 
-    private static void solve() throws IOException {
-        findParentNode(1, -1);
+        for (int i = 1; i <= N; i++) {
+            grp[i] = new ArrayList<>();
+            int k = Integer.parseInt(st.nextToken());
+            boss[i] = k;
+            grp[i].add(k);
+            if (k != -1) grp[k].add(i);
+        }
 
         for (int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());
-            int e = Integer.parseInt(st.nextToken());
+            int emp = Integer.parseInt(st.nextToken());
             int w = Integer.parseInt(st.nextToken());
-            size[e] += w;
+            comp[emp] += w;
         }
+
+        solve(1);
 
         StringBuffer sb = new StringBuffer();
-
-        for (int i = 2; i <= N; i++) {
-            if (size[i] > 0) {
-                calcEmployeeSize(i);
-            }
+        for (int i = 1; i <= N; i++) {
+            sb.append(comp[i]).append(' ');
         }
-
-        for (int i = 1; i <= N; i++)
-            sb.append(size[i]).append(' ');
         System.out.println(sb);
     }
 
-    private static void calcEmployeeSize(int curr) {
-        for (int node : grp[curr]) {
-            if (node != parent[curr]) {
-                size[node] += size[curr];
+    private static void solve(int curr) {
+        for (int next : grp[curr]) {
+            if (next != boss[curr]) {
+                comp[next] += comp[curr];
+                solve(next);
             }
         }
-    }
-
-    private static void findParentNode(int cur, int par) {
-        for (int node : grp[cur]) {
-            if (node != par) {
-                parent[node] = cur;
-                findParentNode(node, cur);
-            }
-        }
-    }
-
-    public static void main(String[] args) throws IOException {
-        input();
-        solve();
     }
 }

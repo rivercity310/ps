@@ -3,9 +3,7 @@ package tree;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringTokenizer;
+import java.util.*;
 
 /* 트리와 쿼리 */
 public class Boj15681 {
@@ -13,44 +11,20 @@ public class Boj15681 {
     static StringTokenizer st;
     static int N, R, Q;
     static List<Integer>[] grp;
-    static int[] parent;
-    static int[] size;
+    static int[] subSize;
+    static boolean[] visited;
 
-    private static void init() {
+    public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
-    }
-
-    private static void makeTree(int curr, int par) {
-        for (int node : grp[curr]) {
-            if (node != par) {
-                parent[node] = curr;
-                makeTree(node, curr);
-            }
-        }
-    }
-
-    private static void countSubtreeNodes(int curr) {
-        size[curr] = 1;
-
-        for (int node : grp[curr]) {
-            if (parent[curr] != node) {
-                countSubtreeNodes(node);
-                size[curr] += size[node];
-            }
-        }
-    }
-
-    private static void solve() throws IOException {
         st = new StringTokenizer(br.readLine());
         N = Integer.parseInt(st.nextToken());
         R = Integer.parseInt(st.nextToken());
         Q = Integer.parseInt(st.nextToken());
         grp = new List[N + 1];
-        size = new int[N + 1];
-        parent = new int[N + 1];
-        parent[R] = -1;
+        subSize = new int[N + 1];
+        visited = new boolean[N + 1];
 
-        for (int i = 0; i <= N; i++) {
+        for (int i = 1; i <= N; i++) {
             grp[i] = new ArrayList<>();
         }
 
@@ -63,20 +37,26 @@ public class Boj15681 {
             grp[b].add(a);
         }
 
-        makeTree(R, -1);
-        countSubtreeNodes(R);
+        calcSubTreeSize(R);
 
-        StringBuffer sb = new StringBuffer();
         for (int i = 0; i < Q; i++) {
-            int query = Integer.parseInt(br.readLine());
-            sb.append(size[query]).append('\n');
+            int q = Integer.parseInt(br.readLine());
+            System.out.println(calcSubTreeSize(q));
         }
-
-        System.out.print(sb);
     }
 
-    public static void main(String[] args) throws IOException {
-        init();
-        solve();
+    private static int calcSubTreeSize(int curr) {
+        if (subSize[curr] > 0) return subSize[curr];
+
+        visited[curr] = true;
+        int result = 1;
+
+        for (int next : grp[curr]) {
+            if (!visited[next]) {
+                result += calcSubTreeSize(next);
+            }
+        }
+
+        return subSize[curr] = result;
     }
 }

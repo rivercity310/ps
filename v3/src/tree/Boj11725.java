@@ -12,51 +12,38 @@ public class Boj11725 {
     static BufferedReader br;
     static StringTokenizer st;
     static int N;
+    static List<Integer>[] grp;
     static int[] parent;
-    static List<ArrayList<Integer>> grp;
 
-    private static void init() {
+    public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
-    }
-
-    private static void solve() throws IOException {
         N = Integer.parseInt(br.readLine());
-        grp = new ArrayList<>();
         parent = new int[N + 1];
+        parent[1] = -1;
+        grp = new ArrayList[N + 1];
 
-        for (int i = 0; i <= N; i++) {
-            grp.add(new ArrayList<>());
-        }
+        for (int i = 1; i <= N; i++)
+            grp[i] = new ArrayList<>();
 
         for (int i = 0; i < N - 1; i++) {
             st = new StringTokenizer(br.readLine());
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-
-            grp.get(a).add(b);
-            grp.get(b).add(a);
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            grp[u].add(v);
+            grp[v].add(u);
         }
 
-        dfs(1);
-
-        StringBuffer sb = new StringBuffer();
-        for (int i = 2; i <= N; i++) {
-            sb.append(parent[i]).append('\n');
-        }
-        System.out.print(sb);
+        solve(1, -1);
+        for (int i = 2; i <= N; i++)
+            System.out.println(parent[i]);
     }
 
-    private static void dfs(int node) {
-        for (int next : grp.get(node)) {
-            if (parent[next] == 0) {
+    private static void solve(int node, int par) {
+        for (int next : grp[node]) {
+            if (next != par) {
                 parent[next] = node;
-                dfs(next);
+                solve(next, node);
             }
         }
-    }
-
-    public static void main(String[] args) throws IOException {
-        init();
-        solve();
     }
 }

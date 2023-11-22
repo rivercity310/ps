@@ -9,36 +9,28 @@ import java.util.StringTokenizer;
 public class Boj2758 {
     static BufferedReader br;
     static StringTokenizer st;
-    static StringBuffer sb;
-    static int T, N, M;
-    static long[][] mem;
+    static int N, M;
+    static long[][] dp;
 
     public static void main(String[] args) throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
-        T = Integer.parseInt(br.readLine());
-        sb = new StringBuffer();
+        int T = Integer.parseInt(br.readLine());
 
         while (T-- > 0) {
             st = new StringTokenizer(br.readLine());
             N = Integer.parseInt(st.nextToken());
             M = Integer.parseInt(st.nextToken());
-            mem = new long[N + 1][M + 1];
-            for (int i = 1; i <= N; i++) {
-                Arrays.fill(mem[i], -1);
-            }
-
-            sb.append(solve(N, M)).append('\n');
+            dp = new long[N + 1][M + 1];
+            for (int i = 1; i <= N; i++) Arrays.fill(dp[i], -1);
+            System.out.println(solve(M, N));
         }
-
-        System.out.print(sb);
     }
 
-    private static long solve(int i, int last) {
+    private static long solve(int last, int index) {
         if (last <= 0) return 0;
-        if (i == 1) return last;
-        if (mem[i][last] == -1) {
-            mem[i][last] = solve(i - 1, last / 2) + solve(i, last - 1);
-        }
-        return mem[i][last];
+        if (index == 1) return last;
+        if (dp[index][last] == -1)
+            dp[index][last] = solve(last / 2, index - 1) + solve(last - 1, index);
+        return dp[index][last];
     }
 }
