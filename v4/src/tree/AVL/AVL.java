@@ -1,4 +1,4 @@
-package tree.avl;
+package tree.AVL;
 
 public class AVL {
     private TreeNode root;
@@ -21,12 +21,18 @@ public class AVL {
     }
 
     private TreeNode insert(TreeNode node, int x) {
-        if (node == null) {
-            return new TreeNode(x);
+        if (node == null) return new TreeNode(x);
+
+        if (node.val > x) {
+            System.out.println(node.val + " 왼쪽으로 이동");
+            node.left = insert(node.left, x);
         }
 
-        if (node.val > x) node.left = insert(node.left, x);
-        else if (node.val < x) node.right = insert(node.right, x);
+        else if (node.val < x) {
+            System.out.println(node.val + " 오른쪽으로 이동");
+            node.right = insert(node.right, x);
+        }
+
         else return node;
 
         // 데이터가 삽입된 부분부터 높이를 갱신하며 해당 노드의 밸런스를 검사한다.
@@ -100,6 +106,74 @@ public class AVL {
         return newParent;
     }
 
+    public void delete(int x) {
+        this.root = delete(root, x);
+    }
+
+    private TreeNode delete(TreeNode node, int x) {
+        if (node == null) return null;
+
+        if (x < node.val) node.left = delete(node.left, x);
+        else if (x > node.val) node.right = delete(node.right, x);
+        else {
+            // 삭제 대상 노드가 리프 노드면 바로 삭제
+            if (node.left == null && node.right == null) {
+                return null;
+            }
+
+            else {
+                // 왼쪽 자식이 있으면 선행자 노드로 삭제 대상 노드의 값을 대체
+                if (node.left != null) {
+                    TreeNode target = findSuccessor(node.left);
+                    node.val = target.val;
+                    node.left = delete(node.left, target.val);
+                }
+
+                // 이 경우 자식이 right에만 1개인 경우이므로 자식으로 삭제 대상 노드 대체
+                else {
+                    node = node.right;
+                }
+            }
+        }
+
+        // 삭제 이후 높이 재정의 (밸런스 검사)
+        node.height = Math.max(getHeight(node.left), getHeight(node.right)) + 1;
+        int balance = getBalance(node);
+
+        if (node.left != null) {
+            System.out.println(node.left.val);
+        }
+
+        // left-left
+        if (balance > 1 && x < node.left.val) {
+            return rightRotate(node);
+        }
+
+        // right-right
+        if (balance < -1 && x > node.right.val) {
+            return leftRotate(node);
+        }
+
+        // left-right
+        if (balance > 1 && x > node.left.val) {
+            node.left = leftRotate(node.left);
+            return rightRotate(node);
+        }
+
+        // right-left
+        if (balance < -1 && x < node.right.val) {
+            node.right = rightRotate(node.right);
+            return leftRotate(node);
+        }
+
+        return node;
+    }
+
+    private TreeNode findSuccessor(TreeNode node) {
+        if (node.right != null) return findSuccessor(node.right);
+        else return node;
+    }
+
     public void search(int x) {
         search(root, x);
     }
@@ -120,9 +194,22 @@ public class AVL {
             search(node.left, x);
         }
 
-        else if (node.val < x) {
+        else {
             System.out.println(node.val + " 기준으로 오른쪽 서브트리로 이동");
             search(node.right, x);
         }
+    }
+
+    public void preorder() {
+        System.out.println("---- 전위순회 결과 ----");
+        preorder(root);
+        System.out.println();
+    }
+
+    private void preorder(TreeNode node) {
+        if (node == null) return;
+        System.out.print(node.val + " ");
+        preorder(node.left);
+        preorder(node.right);
     }
 }

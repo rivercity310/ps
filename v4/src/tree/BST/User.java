@@ -1,4 +1,4 @@
-package tree.bst;
+package tree.BST;
 
 public class User extends KeyComparable<User> {
     private final int weight;

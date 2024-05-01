@@ -1,4 +1,4 @@
-package tree.bst;
+package tree.BST;
 
 
 import java.util.Optional;

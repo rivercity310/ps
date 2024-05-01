@@ -1,4 +1,4 @@
-package tree.avl;
+package tree.AVL;
 
 public class TreeNode {
     int val, height;
